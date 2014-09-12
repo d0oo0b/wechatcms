@@ -1,0 +1,63 @@
+<p><br/><br/><br/><br/></p>
+<script type="text/javascript">
+window.shareData = {
+            "moduleName":"Estate",
+            "moduleID":"0",
+            "imgUrl": "",
+            "sendFriendLink": "{pigcms:$f_siteUrl}{pigcms::U('Estate/index',array('token'=>$token))}",
+            "tTitle": "{pigcms:$estatindex['title']}",
+            "tContent": " {pigcms:$estatindex['project_brief']|html_entity_decode|trim|strip_tags|mb_substr=0,30,'utf-8'}"
+        };
+</script>
+{pigcms:$shareScript}
+<section>
+            <div style="visibility: visible;" id="navList_box" class="box_swipe">
+                <ul style="list-style: none; width: 1280px; transition: 0ms; -webkit-transition: 0ms; -webkit-transform: translate3d(0px, 0, 0);">
+                <li style="width: 640px; display: table-cell; vertical-align: top;">
+                <a href="{pigcms::U('Estate/index',array('token'=>$token,'wecha_id'=>$wecha_id))}">
+                        <img src="{pigcms:$estatindex['picurl1']}" alt="">
+                        <div>{pigcms:$estatindex['menu1']}</div>
+                </a>
+                <a href="{pigcms::U('Estate/introduce',array('token'=>$token,'wecha_id'=>$wecha_id))}" class="pigcms-list-item">
+                    <img src="{pigcms:$estatindex['picurl2']}" alt="">
+                    <div>{pigcms:$estatindex['menu2']}</div>
+                            </a>
+                <a href="{pigcms::U('Estate/housetype',array('token'=>$token,'wecha_id'=>$wecha_id))}" class="pigcms-list-item">
+                        <img src="{pigcms:$estatindex['picurl3']}" alt="">
+                        <div>{pigcms:$estatindex['menu3']}</div>
+                </a>
+                <a href="{pigcms::U('Estate/album',array('token'=>$token,'wecha_id'=>$wecha_id))}" class="pigcms-list-item">
+                        <img src="{pigcms:$estatindex['picurl4']}" alt="">
+                        <div>{pigcms:$estatindex['menu4']}</div>
+                </a>
+                </li>
+                    <li style="width: 640px; display: table-cell; vertical-align: top;">
+                    <a href="{pigcms::U('Estate/news',array('token'=>$token,'wecha_id'=>$wecha_id))}" class="pigcms-list-item">
+                         <img src="{pigcms:$estatindex['picurl5']}" alt="">
+                        <div>{pigcms:$estatindex['menu5']}</div>
+                    </a>
+                    <a href="{pigcms::U('Estate/impress',array('token'=>$token,'wecha_id'=>$wecha_id))}" class="pigcms-list-item">
+                        <img src="{pigcms:$estatindex['picurl6']}" alt="">
+                        <div>{pigcms:$estatindex['menu6']}</div>
+                    </a>
+                    <a href="{pigcms::U('Estate/reserlist',array('token'=>$token,'wecha_id'=>$wecha_id))}" class="pigcms-list-item">
+                     <img src="{pigcms:$estatindex['picurl7']}" alt="">
+                    <div>{pigcms:$estatindex['menu7']}</div>
+                    </a>
+                    <a href="{pigcms::U('Estate/aboutus',array('token'=>$token,'wecha_id'=>$wecha_id))}" class="pigcms-list-item">
+                     <img src="{pigcms:$estatindex['picurl8']}" alt="">
+                    <div>{pigcms:$estatindex['menu8']}</div>
+                    </a>
+                        </li>
+                </ul>
+                <ol>
+                    <a href="javascript:navList_box.prev();">&nbsp;</a>
+                    <a href="javascript:navList_box.next();">&nbsp;</a>
+                </ol>
+            </div>
+        </section>
+        <script>
+            $(document).ready(function(){
+                window.navList_box = new Swipe(document.getElementById('navList_box'), {auto:0});
+            });
+        </script>

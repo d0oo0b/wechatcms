@@ -1,0 +1,1560 @@
+[ 2014-07-06T22:57:20+08:00 ] 112.124.127.44 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031250s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031250s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031250s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031250s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T22:57:55+08:00 ] 123.125.80.235 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015625s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015625s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015625s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T22:59:14+08:00 ] 180.153.229.139 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031250s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031250s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031250s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031250s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T22:59:27+08:00 ] 115.28.203.70 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031250s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031250s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031250s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031250s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:01:39+08:00 ] 125.88.219.97 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015625s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015625s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015625s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:02:21+08:00 ] 112.124.127.44 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015625s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015625s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015625s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:02:55+08:00 ] 123.125.80.235 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031250s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031250s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031250s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031250s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:04:14+08:00 ] 180.153.229.139 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.046875s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.046875s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.046875s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.046875s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.046875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.046875s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:04:37+08:00 ] 115.28.203.70 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.109375s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.109375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.125000s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.125000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.125000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.125000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.125000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:06:38+08:00 ] 125.88.219.97 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031250s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031250s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031250s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031250s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:07:23+08:00 ] 112.124.127.44 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015625s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015625s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015625s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:07:55+08:00 ] 123.125.80.235 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031250s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031250s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031250s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031250s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:09:15+08:00 ] 180.153.229.139 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031250s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031250s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031250s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031250s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:09:22+08:00 ] 115.28.203.70 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031250s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031250s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031250s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031250s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:11:38+08:00 ] 125.88.219.97 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015625s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015625s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015625s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:12:18+08:00 ] 112.124.127.44 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.046875s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.046875s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.046875s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.046875s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.046875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.046875s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:12:55+08:00 ] 123.125.80.235 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031250s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031250s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031250s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031250s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:14:14+08:00 ] 180.153.229.139 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031250s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.046875s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.046875s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.046875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.046875s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:14:25+08:00 ] 115.28.203.70 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015625s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015625s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015625s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:16:38+08:00 ] 125.88.219.97 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.046875s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.046875s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.046875s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.046875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.046875s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:17:18+08:00 ] 112.124.127.44 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.046875s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.046875s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.046875s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.046875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.046875s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:17:54+08:00 ] 123.125.80.235 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015625s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015625s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015625s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:18:36+08:00 ] 123.125.80.235 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031250s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031250s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031250s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031250s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:19:14+08:00 ] 180.153.229.139 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.046875s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.046875s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.046875s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.046875s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.046875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.046875s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:19:37+08:00 ] 115.28.203.70 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015625s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015625s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031250s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031250s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:21:38+08:00 ] 125.88.219.97 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031250s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031250s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031250s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031250s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:22:30+08:00 ] 112.124.127.44 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031250s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031250s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031250s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031250s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:23:35+08:00 ] 123.125.80.235 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.062500s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.062500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.062500s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.062500s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.062500s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.062500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.062500s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:24:14+08:00 ] 180.153.229.139 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015625s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015625s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015625s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:24:27+08:00 ] 115.28.203.70 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031250s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031250s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031250s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031250s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:26:38+08:00 ] 125.88.219.97 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015625s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015625s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015625s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:27:22+08:00 ] 112.124.127.44 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031250s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031250s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031250s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031250s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:28:34+08:00 ] 123.125.80.235 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031250s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031250s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031250s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031250s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:29:13+08:00 ] 180.153.229.139 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015625s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015625s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015625s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:29:23+08:00 ] 115.28.203.70 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015625s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015625s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015625s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:31:38+08:00 ] 125.88.219.97 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.046875s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.046875s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.046875s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.046875s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.046875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.046875s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:32:22+08:00 ] 112.124.127.44 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031250s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031250s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031250s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031250s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:33:34+08:00 ] 123.125.80.235 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015625s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015625s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015625s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:34:14+08:00 ] 180.153.229.139 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031250s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031250s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031250s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031250s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:34:36+08:00 ] 115.28.203.70 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031250s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031250s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031250s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031250s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:36:38+08:00 ] 125.88.219.97 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015625s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015625s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015625s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:37:27+08:00 ] 112.124.127.44 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015625s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015625s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015625s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:38:34+08:00 ] 123.125.80.235 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031250s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031250s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031250s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031250s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:39:14+08:00 ] 180.153.229.139 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.046875s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.046875s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.046875s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.046875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.046875s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:39:25+08:00 ] 115.28.203.70 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015625s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015625s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015625s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:41:38+08:00 ] 125.88.219.97 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031250s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031250s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031250s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031250s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:42:32+08:00 ] 112.124.127.44 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031250s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031250s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031250s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031250s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:43:34+08:00 ] 123.125.80.235 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.046875s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.046875s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.046875s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.046875s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.046875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.046875s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:44:13+08:00 ] 180.153.229.139 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031250s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031250s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031250s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031250s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:44:27+08:00 ] 115.28.203.70 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015625s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015625s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015625s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:46:38+08:00 ] 125.88.219.97 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031250s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.046875s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.046875s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.046875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.046875s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:47:15+08:00 ] 112.124.127.44 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031250s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031250s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031250s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031250s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:48:33+08:00 ] 123.125.80.235 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015625s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015625s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015625s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:49:13+08:00 ] 180.153.229.139 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015625s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015625s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015625s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:49:35+08:00 ] 115.28.203.70 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031250s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031250s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031250s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031250s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:51:38+08:00 ] 125.88.219.97 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.046875s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.062500s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.062500s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.062500s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.062500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.062500s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:52:28+08:00 ] 112.124.127.44 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015625s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015625s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015625s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:53:34+08:00 ] 123.125.80.235 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031250s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031250s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031250s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031250s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:54:13+08:00 ] 180.153.229.139 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031250s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031250s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031250s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031250s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:54:23+08:00 ] 115.28.203.70 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.046875s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.046875s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.046875s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.046875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.046875s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:56:37+08:00 ] 125.88.219.97 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.046875s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.046875s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.046875s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.046875s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.046875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.046875s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:57:27+08:00 ] 112.124.127.44 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031250s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031250s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031250s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031250s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:58:34+08:00 ] 123.125.80.235 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031250s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031250s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031250s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031250s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:59:13+08:00 ] 180.153.229.139 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.046875s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.046875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.046875s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.046875s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.046875s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.046875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.046875s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-07-06T23:59:24+08:00 ] 115.28.203.70 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.015625s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+NOTIC: [8] Undefined index: uid D:\www\pig\Conf\logs\Cache\Home\74dac7a6ff91433f1797e3db1acaceae.php 第 48 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031250s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031250s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031250s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031250s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+

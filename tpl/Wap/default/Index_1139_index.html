@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="{pigcms::RES}/css/template/snower.css" media="all" />
+<link rel="stylesheet" type="text/css" href="{pigcms::RES}/css/template/common.css" media="all" />
+<link rel="stylesheet" type="text/css" href="../../wm-xin-a/font-awesome.css?v=2013121900" media="all" />
+	<link rel="stylesheet" type="text/css" href="{pigcms::RES}/css/template/reset.css" media="all" />
+	<title>{pigcms:$tpl.wxname}</title>
+<link rel="stylesheet" type="text/css" href="{pigcms::RES}/css/template/home-17.css" media="all" />
+<script type="text/javascript" src="{pigcms::RES}/src/template/maivl.js"></script>
+<script type="text/javascript" src="{pigcms::RES}/src/jQuery.js"></script>
+<script type="text/javascript" src="{pigcms::RES}/src/template/swipe.js"></script>
+<script type="text/javascript" src="{pigcms::RES}/src/template/zepto.js"></script>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+		<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+       
+        <!-- Mobile Devices Support @begin -->
+            <meta content="application/xhtml+xml;charset=UTF-8" http-equiv="Content-Type">
+            <meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+            <meta content="no-cache" http-equiv="pragma">
+            <meta content="0" http-equiv="expires">
+            <meta content="telephone=no, address=no" name="format-detection">
+            <meta content="width=device-width, initial-scale=1.0" name="viewport">
+            <meta name="apple-mobile-web-app-capable" content="yes" /> <!-- apple devices fullscreen -->
+            <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <!-- Mobile Devices Support @end -->
+        <link rel="shortcut icon" href="{pigcms::RES}/img/favicon.ico" />
+    </head>
+<body onselectstart="return true;" ondragstart="return false;">
+        
+<div class="body" style="padding-bottom:52px;">					<!--
+	幻灯片管理
+	-->	<div style="-webkit-transform:translate3d(0,0,0);">
+		<div id="banner_box" class="box_swipe">
+			<ul>
+			<volist name="flash" id="so">
+									<li>
+													<a href="{pigcms:$so.url}">
+																	<img src="{pigcms:$so.img}" alt="{pigcms:$so.info}" style="width:100%;" />
+								</a>
+					</li>
+					</volist>
+							</ul>
+			<ol>
+									<volist name="flash" id="so">
+			<li   <if condition="$i eq 1">class="active"</if>  ></li>
+			</volist>
+							</ol>
+		</div>
+	</div>
+		<script>
+		$(function(){
+			new Swipe(document.getElementById('banner_box'), {
+				speed:500,
+				auto:3000,
+				callback: function(){
+					var lis = $(this.element).next("ol").children();
+					lis.removeClass("on").eq(this.index).addClass("on");
+				}
+			});
+		});
+	</script>
+	<header>
+        <div class="snower">
+            <script type="text/javascript"></script>
+            <script type="text/javascript" src="{pigcms::RES}/src/template/snower.js"></script>
+        </div>
+    </header>             <section>			
+						<a href="tel:{pigcms:$homeInfo.dianhua}" class="link_tel icon-phone"><if condition="$homeInfo.dianhua neq false">{pigcms:$homeInfo.dianhua}<else/>没有留电话</if></a>
+							</section>
+        			
+		<section>
+            <ul class="list_font">
+            <volist name="info" id="vo">
+			<li style="background-color:{pigcms:$vo.yanse};">
+													<a href="<if condition="$vo['url'] eq ''">{pigcms::U('Wap/Index/lists',array('classid'=>$vo['id'],'token'=>$vo['token']))}<else/>{pigcms:$vo.url|htmlspecialchars_decode}</if>">
+						                            <div><span class="{pigcms:$vo.icon}"></span></div>
+                            <div>
+                                <p style="color:{pigcms:$vo.nameyanse}">{pigcms:$vo.name}</p>
+                            </div>
+                        </a>
+                    </li>
+					</volist>
+					                            </ul>
+        </section>
+	
+
+</div> 
+<include file="Index:styleInclude"/><include file="$cateMenuFileName"/> 
+	<if condition="ACTION_NAME eq 'index'">
+		<script type="text/javascript">
+			window.shareData = {  
+					"moduleName":"Index",
+					"moduleID": '0',
+					"imgUrl": "{pigcms:$homeInfo.picurl}", 
+					"timeLineLink": "{pigcms::C('site_url')}{pigcms::U(Index/ACTION_NAME,array('token'=>$_GET['token']))}",
+					"sendFriendLink": "{pigcms::C('site_url')}{pigcms::U(Index/ACTION_NAME,array('token'=>$_GET['token']))}",
+					"weiboLink": "{pigcms::C('site_url')}{pigcms::U(Index/ACTION_NAME,array('token'=>$_GET['token']))}",
+					"tTitle": "{pigcms:$homeInfo.title}",
+					"tContent": "{pigcms:$homeInfo.info}"
+				};
+		</script>
+	<else />
+		<script type="text/javascript">
+			window.shareData = {  
+				"moduleName":"Index",
+				"moduleID": '1',
+				"imgUrl": "{pigcms:$homeInfo.picurl}", 
+				"timeLineLink": "{pigcms::C('site_url')}{pigcms::U(Index/ACTION_NAME,array('token'=>$_GET['token'],'classid'=>$_GET['classid']))}",
+				"sendFriendLink": "{pigcms::C('site_url')}{pigcms::U(MODULE_NAME/ACTION_NAME,array('token'=>$_GET['token'],'classid'=>$_GET['classid']))}",
+				"weiboLink": "{pigcms::C('site_url')}{pigcms::U(MODULE_NAME/ACTION_NAME,array('token'=>$_GET['token'],'classid'=>$_GET['classid']))}",
+				"tTitle": "{pigcms:$homeInfo.title}",
+				"tContent": "{pigcms:$homeInfo.info}"
+			};
+		</script>	
+	
+	</if>
+{pigcms:$shareScript}
+</body>
+
+<script type="text/javascript">
+window.onload = function(){
+	$(".wz08menu img").each(function(){
+		$(this).height($(this).width());
+	  });
+};
+</script>
+</html>

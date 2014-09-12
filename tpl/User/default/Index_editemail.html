@@ -1,0 +1,68 @@
+<include file="Public:head"/>
+<div class="content">
+          <div class="cLineB"><h4>邮件平台</h4></div>
+          <form method="post" action="{pigcms::U('User/Index/upsaveemail')}" enctype="multipart/form-data">
+          <input type="hidden" name="id" value="{pigcms:$info.id}">
+          <div class="msgWrap">
+            <table class="userinfoArea" border="0" cellspacing="0" cellpadding="0" width="100%">
+              <thead>
+			    <tr>
+                  <th><span class="red">*</span>邮件地址：</th>
+                  <td><input type="text" required="" class="px" name="email" value="{pigcms:$info.email}" tabindex="1" size="25">
+                  <span class="red">商家邮箱用于接收邮件</span>
+                  </td>
+                </tr>
+                <tr>
+                  <th><span class="red">*</span>SMTP账号：</th>
+                  <td><input type="text" required="" class="px" name="emailuser" value="{pigcms:$info.emailuser}" tabindex="1" size="25">
+                  <span class="red">输入QQ帐号</span>
+                  </td>
+                </tr>
+				<tr>
+                  <th><span class="red">*</span>SMTP密码：</th>
+                  <td><input type="text" required="" class="px" name="emailpassword" value="{pigcms:$info.emailpassword}" tabindex="1" size="25">
+                  <span class="red">输入QQ密码</span>
+                  </td>
+                </tr>
+				<tr>
+                  <th><span class="red">*</span>邮件平台状态：</th>
+                  <td>
+				  <input type="radio" class="radio" class="ipt" value="1" name="emailstatus" id="status1" <if condition="($info.emailstatus eq 1) OR ($info['emailstatus'] eq '') ">checked=""</if> >
+							启用
+							<input type="radio" class="radio" class="ipt"  value="0" name="emailstatus" id="status2" <eq name="info.emailstatus" value="0">checked=""</eq> >
+							关闭
+                  </td>
+                </tr>
+				<div style="display:none;">
+				<input type="text" required="" class="px" name="wxname" value="{pigcms:$info.wxname}" tabindex="1" size="25">
+				<input type="text" disabled="disabled" required="" title="无法修改，您可以联系管理员" name="wxid" value="{pigcms:$info.wxid}" class="px" tabindex="1" size="25" style="color:#DDD;">
+				<input type="text" required="" name="weixin" value="{pigcms:$info.weixin}" class="px" tabindex="1" size="25">
+				<input class="px" name="headerpic" value="{pigcms:$info.headerpic}" size="60">
+				<input type="hidden" name="token" value="{pigcms:$info.token}" class="px" tabindex="1" size="40">
+				<input type="text" class="px" id="province" value="{pigcms:$info.province}" name="province" tabindex="1" size="20">
+				<input id="city" value="{pigcms:$info.city}" type="text" name="city" class="px" tabindex="1" size="20">
+				<input type="text" required="" class="px" tabindex="1" value="{pigcms:$info.qq}" name="qq" size="25">
+				<input type="text" required="" name="wxfans" value="{pigcms:$info.wxfans}" class="px" tabindex="1" size="25">
+				<input type="text" required="" name="type" value="{pigcms:$info.typeid}" class="px" tabindex="1" size="25">
+				<input type="hidden" name="appid" value="{pigcms:$info.appid}" class="px" tabindex="1" size="35">
+				<input type="hidden" name="appsecret" value="{pigcms:$info.appsecret}" class="px" tabindex="1" size="35">
+				<input type="hidden" name="winxintype" value="{pigcms:$info.winxintype}" class="px" tabindex="1" size="35">
+				</div>
+              </thead>
+              
+                <tr>
+                  <td><button type="submit" class="btnGreen" id="saveSetting">保存</button></td>
+                </tr>
+            </table>
+            
+          </div>
+          </form>
+        </div>
+        
+        <div class="clr"></div>
+      </div>
+    </div>
+  </div>
+  <!--底部-->
+  	</div>
+<include file="Public:footer"/>	

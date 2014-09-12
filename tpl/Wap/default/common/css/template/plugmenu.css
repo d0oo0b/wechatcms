@@ -1,0 +1,81 @@
+﻿.plug-wrap{
+    position:absolute;
+    height:100px;
+    background:rgba(0,0,0,0);
+    top:0;
+    left:0;
+    width:0;
+    height:0;
+    z-index:800;
+    display:none!important;
+}
+.plug-div {
+	position:fixed;
+	bottom:0;
+	left:0px;
+	z-index:900;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.plug-menu{
+	-webkit-appearance:button;
+	display:inline-block;
+	width:36px!important;
+	height:36px!important;
+	border-radius:36px;
+	position: absolute;
+	bottom:17px;
+	left: 17px;
+	z-index:999;
+	-moz-box-shadow:0 0 0 4px #FFFFFF, 0 2px 5px 4px rgba(0, 0, 0, 0.25);
+	-webkit-box-shadow:0 0 0 4px #FFFFFF, 0 2px 5px 4px rgba(0, 0, 0, 0.25);
+	box-shadow:0 0 0 4px #FFFFFF, 0 2px 5px 4px rgba(0, 0, 0, 0.25);
+	background-color: #B70000;
+	-webkit-transition: -webkit-transform 200ms;
+	-webkit-transform:rotate(1deg);
+	color:#fff;
+	background-image:url("../../img/plugmenu.png");
+	background-repeat: no-repeat;
+	-webkit-background-size: 80% auto;
+	background-size: 80% auto;
+	background-position: center center;
+}
+.plug-menu:before{
+	font-size:20px;
+	margin:9px 0 0 9px;
+}
+.plug-menu:checked{
+	-webkit-transform:rotate(135deg);
+}
+
+.plug-phone>div {
+	width:32px;
+	height:32px;
+	border-radius:32px;
+	-moz-box-shadow:0 0 0 3px #FFFFFF, 0 2px 5px 3px rgba(0, 0, 0, 0.25);
+	-webkit-box-shadow:0 0 0 3px #FFFFFF, 0 2px 5px 3px rgba(0, 0, 0, 0.25);
+	box-shadow:0 0 0 3px #FFFFFF, 0 2px 5px 3px rgba(0, 0, 0, 0.25);
+	background:#B70000;
+	position:absolute;
+	bottom:0;
+	left:0;
+	margin-bottom:20px;
+	margin-left:20px;
+	z-index:900;
+	-webkit-transition: -webkit-transform 200ms;
+}
+.plug-phone>div a{
+	color:#fff;
+	font-size:20px;
+    display: block;
+    height: 100%;
+    line-height: 33px;
+    text-align: center;
+}
+
+.plug-phone>div.on:nth-of-type(1) {-webkit-transform: translate(0, -100px) rotate(720deg);}
+
+.plug-phone>div.on:nth-of-type(2) {-webkit-transform: translate(47px, -81px) rotate(720deg);}
+
+.plug-phone>div.on:nth-of-type(3) {-webkit-transform: translate(81px, -45px) rotate(720deg);}
+
+.plug-phone>div.on:nth-of-type(4) {-webkit-transform: translate(100px, 0) rotate(720deg);}

@@ -1,0 +1,80 @@
+<include file="Index:header"/>
+<script src="/tpl/static/jquery-1.4.2.min.js"></script>
+<script src="/tpl/static/artDialog/jquery.artDialog.js?skin=default"></script>
+<script src="/tpl/static/artDialog/plugins/iframeTools.js"></script>
+<link rel="stylesheet" type="text/css" href="{pigcms::Common}/default_user_com.css" media="all">
+<script language="JavaScript">
+if (window.top != self){
+	window.top.location = self.location;
+}
+</script>
+<script>
+function addFee(){
+	art.dialog.open('?g=User&m=Alipay&a=add',{lock:true,title:'充值续费',width:600,height:400,yesText:'关闭',background: '#000',opacity: 0.45});
+}
+</script>
+<div class="content">
+<div class="usercontent">
+<ul>
+<li><a href="###" class="gold" title="查看资金" ><p><strong>账户余额：</strong>{pigcms:$thisUser.moneybalance}</p><p>已充值总数：{pigcms:$thisUser.money}</p></a></li>
+<li class="addli"><a class="addwx" title="添加微信公众号" onclick="location.href='{pigcms::U('Index/add')}';">添加微信公众号</a></li>
+<li><a href="index.php?g=User&m=Alipay&a=index" title="支付宝在线充值" class="goldbuy">支付宝在线充值</a></li>
+<li><div class="qqqun"><div class="qt">{pigcms:$f_qq} </div><div class="qt2">官方QQ号</div></div></li>
+</ul>
+        <div class="clr"></div>
+      </div>
+          <div class="msgWrap">
+            <TABLE class="ListProduct" border="0" cellSpacing="0" cellPadding="0" width="100%">
+              <THEAD>
+                <TR>
+                  <TH>公众号名称</TH>
+                  <TH style="text-align:center">VIP等级</TH>
+                  <TH>创建时间/到期时间</TH>
+                   <TH>已定义/上限</TH>
+                   <TH>请求数</TH>
+                  <TH>操作</TH>
+                </TR>
+              </THEAD>
+              <TBODY>
+                <TR></TR>                
+                 <volist name="info" id="vo"> 
+					<TR>
+					  <TD><p><a href="{pigcms::U('Function/index',array('id'=>$vo['id'],'token'=>$vo['token']))}" title="点击进入功能管理"><img src="{pigcms:$vo.headerpic}" width="40" height="40"></a></p><p>{pigcms:$vo.wxname}</p></TD>
+					  <TD align="center">{pigcms:$thisGroup.name}</TD>
+					  <TD><p>创建时间:{pigcms:$vo.createtime|date="Y-m-d",###}</p><p>到期时间:{pigcms:$viptime|date="Y-m-d",###}</p><p><a href="###" onclick="addFee()" id="smemberss" class="green"><em>升降级vip续费</em></a></p></Td>
+					  <TD><p>图文：<php>echo $_SESSION['diynum'].'/'.$group[$_SESSION['gid']]['did'];</php></p></TD>
+					   <TD><p>总请求数:<php>echo $_SESSION['connectnum']</php></p><p> 本月请求数:<php>echo $group[$_SESSION['gid']]['cid'];</php></p></TD>
+					  
+					  <TD class="norightborder">　<a href="{pigcms::U('Index/edit',array('id'=>$vo['id']))}"class="btnGreens">编辑</a>　
+					  <a href="{pigcms::U('Function/index',array('id'=>$vo['id'],'token'=>$vo['token']))}" class="btnGreens" >功能管理</a>
+					  <a href="{pigcms::U('Home/Index/help',array('id'=>$vo['id'],'token'=>$vo['token']))}" class="btnGreens" >API接口</a>
+					  <if condition="$_SESSION['uname'] neq 1231">
+						<a href="javascript:drop_confirm('您确定删除这个公众号吗?删除后数据可能无法恢复！', '{pigcms::U('Index/del',array('id'=>$vo['id']))}');" class="btnGreens">删除</a>
+					  </if>　
+					  </TD>
+					</TR>
+                  </volist>
+
+              </TBODY>
+            </TABLE>
+            
+          </div>
+          <br>
+          
+          
+          
+          <div class="cLine">
+            <div class="pageNavigator right">
+              <div class="pages"></div>
+            </div>
+            <div class="clr"></div>
+          </div>
+        </div>
+        
+        <div class="clr"></div>
+      </div>
+    </div>
+  </div>
+  <!--底部-->
+  	</div>
+<include file="Public:footer"/>	

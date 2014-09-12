@@ -1,0 +1,876 @@
+[ 2014-08-07T23:08:17+08:00 ] 103.7.30.86 /index.php/api/qzembv1407229744?signature=2c46b13ba517e7d6de9a4fa34e05ae269a1b5b99&timestamp=1407424077&nonce=1260634551
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID C:\upupw\htdocs\pigcms0806\Common\functions.php 第 498 行.
+NOTIC: [8] Undefined index: name_id C:\upupw\htdocs\pigcms0806\Common\functions.php 第 499 行.
+NOTIC: [8] A session had already been started - ignoring session_start() C:\upupw\htdocs\pigcms0806\Common\functions.php 第 536 行.
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `token` = 'qzembv1407229744' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 85 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_userinfo` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_userinfo` WHERE ( `token` = 'qzembv1407229744' ) AND ( `wecha_id` = 'ovdzpt4IRrvzNS_bUwfpQqmhez4I' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [2] unlink(./Conf/logs/Temp/5/8/58d2389cc8a057421dcddba75db4887b.php): No such file or directory C:\upupw\htdocs\pigcms0806\Lib\Driver\Cache\CacheFile.class.php 第 176 行.
+NOTIC: [2048] Non-static method apiServer::getServerUrl() should not be called statically, assuming $this from incompatible context C:\upupw\htdocs\pigcms0806\PigCms\Lib\Action\Home\WeixinAction.class.php 第 57 行.
+SQL: SHOW COLUMNS FROM `tp_token_open` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_token_open` WHERE ( `token` = 'qzembv1407229744' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: Event C:\upupw\htdocs\pigcms0806\PigCms\Lib\Action\Home\WeixinAction.class.php 第 79 行.
+NOTIC: [8] Undefined index: Event C:\upupw\htdocs\pigcms0806\PigCms\Lib\Action\Home\WeixinAction.class.php 第 82 行.
+NOTIC: [8] Undefined index: Event C:\upupw\htdocs\pigcms0806\PigCms\Lib\Action\Home\WeixinAction.class.php 第 88 行.
+NOTIC: [8] Undefined index: Event C:\upupw\htdocs\pigcms0806\PigCms\Lib\Action\Home\WeixinAction.class.php 第 95 行.
+NOTIC: [8] Undefined index: Event C:\upupw\htdocs\pigcms0806\PigCms\Lib\Action\Home\WeixinAction.class.php 第 123 行.
+NOTIC: [8] Undefined index: Event C:\upupw\htdocs\pigcms0806\PigCms\Lib\Action\Home\WeixinAction.class.php 第 125 行.
+NOTIC: [8] Undefined index: Content C:\upupw\htdocs\pigcms0806\PigCms\Lib\Action\Home\WeixinAction.class.php 第 136 行.
+NOTIC: [8] Undefined index: Content C:\upupw\htdocs\pigcms0806\PigCms\Lib\Action\Home\WeixinAction.class.php 第 142 行.
+NOTIC: [8] Undefined index: Content C:\upupw\htdocs\pigcms0806\PigCms\Lib\Action\Home\WeixinAction.class.php 第 180 行.
+NOTIC: [8] Undefined index: Content C:\upupw\htdocs\pigcms0806\PigCms\Lib\Action\Home\WeixinAction.class.php 第 183 行.
+NOTIC: [8] Undefined index: Content C:\upupw\htdocs\pigcms0806\PigCms\Lib\Action\Home\WeixinAction.class.php 第 183 行.
+NOTIC: [8] Undefined index: Content C:\upupw\htdocs\pigcms0806\PigCms\Lib\Action\Home\WeixinAction.class.php 第 247 行.
+NOTIC: [8] Undefined index: Content C:\upupw\htdocs\pigcms0806\PigCms\Lib\Action\Home\WeixinAction.class.php 第 259 行.
+NOTIC: [8] Undefined index: Content C:\upupw\htdocs\pigcms0806\PigCms\Lib\Action\Home\WeixinAction.class.php 第 325 行.
+NOTIC: [8] Undefined index: Content C:\upupw\htdocs\pigcms0806\PigCms\Lib\Action\Home\WeixinAction.class.php 第 330 行.
+NOTIC: [8] Undefined index: Content C:\upupw\htdocs\pigcms0806\PigCms\Lib\Action\Home\WeixinAction.class.php 第 332 行.
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_users` SET `connectnum`=connectnum+1 WHERE ( `id` = 85 ) [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: Event C:\upupw\htdocs\pigcms0806\PigCms\Lib\Action\Home\WeixinAction.class.php 第 340 行.
+NOTIC: [8] Undefined index: Content C:\upupw\htdocs\pigcms0806\PigCms\Lib\Action\Home\WeixinAction.class.php 第 347 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\upupw\htdocs\pigcms0806\PigCms\Lib\Action\Home\WeixinAction.class.php 第 2894 行.
+SQL: SHOW COLUMNS FROM `tp_user_request` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_user_request` WHERE ( `token` = 'qzembv1407229744' ) AND ( `msgtype` = 'location' ) AND ( `uid` = 'ovdzpt4IRrvzNS_bUwfpQqmhez4I' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tp_user_request` SET `time`='1407424084',`token`='qzembv1407229744',`keyword`='120.383614,36.119236',`msgtype`='location',`uid`='ovdzpt4IRrvzNS_bUwfpQqmhez4I' WHERE ( `id` = 4 ) [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_user_request` WHERE ( `token` = 'qzembv1407229744' ) AND ( `msgtype` = 'text' ) AND ( `uid` = 'ovdzpt4IRrvzNS_bUwfpQqmhez4I' ) AND ( `time` > 1407423784 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_company` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_company` WHERE ( `token` = 'qzembv1407229744' ) ORDER BY isbranch ASC,taxis ASC  [ RunTime:0.000000s ]
+
+[ 2014-08-07T23:11:42+08:00 ] ERR: (ThinkException) Action:postJson_METHOD_NOT_EXIST_
+[ 2014-08-07T23:15:30+08:00 ] 195.222.58.189 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID C:\upupw\htdocs\pigcms0806\Common\functions.php 第 498 行.
+NOTIC: [8] Undefined index: name_id C:\upupw\htdocs\pigcms0806\Common\functions.php 第 499 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.031247s ]
+INFO: [ view_template ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index: uid C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.046870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031248s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.078118s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.078118s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.093741s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.093741s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.093741s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-08-07T23:17:08+08:00 ] 195.222.58.189 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID C:\upupw\htdocs\pigcms0806\Common\functions.php 第 498 行.
+NOTIC: [8] Undefined index: name_id C:\upupw\htdocs\pigcms0806\Common\functions.php 第 499 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index: uid C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015623s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015623s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015623s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015623s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-08-07T23:18:48+08:00 ] 195.222.58.189 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID C:\upupw\htdocs\pigcms0806\Common\functions.php 第 498 行.
+NOTIC: [8] Undefined index: name_id C:\upupw\htdocs\pigcms0806\Common\functions.php 第 499 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015623s ]
+INFO: [ view_template ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index: uid C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.031246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031247s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.062493s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.062493s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.062493s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.062493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.062493s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-08-07T23:20:04+08:00 ] 195.222.58.189 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID C:\upupw\htdocs\pigcms0806\Common\functions.php 第 498 行.
+NOTIC: [8] Undefined index: name_id C:\upupw\htdocs\pigcms0806\Common\functions.php 第 499 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index: uid C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015623s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015623s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015623s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015623s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-08-07T23:21:54+08:00 ] 195.222.58.189 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.015623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015623s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID C:\upupw\htdocs\pigcms0806\Common\functions.php 第 498 行.
+NOTIC: [8] Undefined index: name_id C:\upupw\htdocs\pigcms0806\Common\functions.php 第 499 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index: uid C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015624s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015624s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015624s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015624s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015624s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-08-07T23:23:36+08:00 ] 195.222.58.189 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID C:\upupw\htdocs\pigcms0806\Common\functions.php 第 498 行.
+NOTIC: [8] Undefined index: name_id C:\upupw\htdocs\pigcms0806\Common\functions.php 第 499 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index: uid C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015624s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015624s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015624s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015624s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015624s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-08-07T23:25:19+08:00 ] 195.222.58.189 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID C:\upupw\htdocs\pigcms0806\Common\functions.php 第 498 行.
+NOTIC: [8] Undefined index: name_id C:\upupw\htdocs\pigcms0806\Common\functions.php 第 499 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index: uid C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015624s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015624s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015624s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015624s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015624s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-08-07T23:25:28+08:00 ] 180.153.163.189 /index.php?g=Home&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID C:\upupw\htdocs\pigcms0806\Common\functions.php 第 498 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\6e27937fb5589b70015f39bf6f7a91c4.php 第 31 行.
+NOTIC: [8] Undefined index: uid C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\6e27937fb5589b70015f39bf6f7a91c4.php 第 31 行.
+NOTIC: [8] Undefined index: invitecode C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\6e27937fb5589b70015f39bf6f7a91c4.php 第 208 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031246s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031246s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031246s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031246s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031246s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-08-07T23:26:19+08:00 ] 101.226.65.107 /index.php?g=Home&m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID C:\upupw\htdocs\pigcms0806\Common\functions.php 第 498 行.
+NOTIC: [8] Undefined index: name_id C:\upupw\htdocs\pigcms0806\Common\functions.php 第 499 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.015623s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015623s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index: uid C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015623s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015623s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015623s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015623s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-08-07T23:27:02+08:00 ] 195.222.58.189 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID C:\upupw\htdocs\pigcms0806\Common\functions.php 第 498 行.
+NOTIC: [8] Undefined index: name_id C:\upupw\htdocs\pigcms0806\Common\functions.php 第 499 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index: uid C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015624s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015624s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015624s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015624s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015624s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-08-07T23:27:31+08:00 ] 180.153.214.191 /index.php?g=Home&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID C:\upupw\htdocs\pigcms0806\Common\functions.php 第 498 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\6e27937fb5589b70015f39bf6f7a91c4.php 第 31 行.
+NOTIC: [8] Undefined index: uid C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\6e27937fb5589b70015f39bf6f7a91c4.php 第 31 行.
+NOTIC: [8] Undefined index: invitecode C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\6e27937fb5589b70015f39bf6f7a91c4.php 第 208 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015624s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015624s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015624s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015624s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015624s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-08-07T23:28:44+08:00 ] 195.222.58.189 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID C:\upupw\htdocs\pigcms0806\Common\functions.php 第 498 行.
+NOTIC: [8] Undefined index: name_id C:\upupw\htdocs\pigcms0806\Common\functions.php 第 499 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index: uid C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015623s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015623s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015623s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015623s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-08-07T23:30:25+08:00 ] 195.222.58.189 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID C:\upupw\htdocs\pigcms0806\Common\functions.php 第 498 行.
+NOTIC: [8] Undefined index: name_id C:\upupw\htdocs\pigcms0806\Common\functions.php 第 499 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.015624s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015624s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index: uid C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015624s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015624s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015624s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015624s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-08-07T23:30:50+08:00 ] 101.226.89.119 /index.php?g=Home&m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID C:\upupw\htdocs\pigcms0806\Common\functions.php 第 498 行.
+NOTIC: [8] Undefined index: name_id C:\upupw\htdocs\pigcms0806\Common\functions.php 第 499 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015624s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index: uid C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015624s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015624s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015624s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015624s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015623s ]
+
+[ 2014-08-07T23:32:02+08:00 ] 195.222.58.189 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID C:\upupw\htdocs\pigcms0806\Common\functions.php 第 498 行.
+NOTIC: [8] Undefined index: name_id C:\upupw\htdocs\pigcms0806\Common\functions.php 第 499 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015623s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index: uid C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015623s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015623s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015623s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015623s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-08-07T23:33:46+08:00 ] 195.222.58.189 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID C:\upupw\htdocs\pigcms0806\Common\functions.php 第 498 行.
+NOTIC: [8] Undefined index: name_id C:\upupw\htdocs\pigcms0806\Common\functions.php 第 499 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.015624s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015624s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index: uid C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015624s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015624s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015624s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015624s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-08-07T23:35:31+08:00 ] 195.222.58.189 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID C:\upupw\htdocs\pigcms0806\Common\functions.php 第 498 行.
+NOTIC: [8] Undefined index: name_id C:\upupw\htdocs\pigcms0806\Common\functions.php 第 499 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index: uid C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015624s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015624s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015624s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015624s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015624s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-08-07T23:37:21+08:00 ] 195.222.58.189 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID C:\upupw\htdocs\pigcms0806\Common\functions.php 第 498 行.
+NOTIC: [8] Undefined index: name_id C:\upupw\htdocs\pigcms0806\Common\functions.php 第 499 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.015624s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index: uid C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015624s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015624s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015624s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015624s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-08-07T23:39:21+08:00 ] 195.222.58.189 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID C:\upupw\htdocs\pigcms0806\Common\functions.php 第 498 行.
+NOTIC: [8] Undefined index: name_id C:\upupw\htdocs\pigcms0806\Common\functions.php 第 499 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index: uid C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015624s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015624s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015624s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015624s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015624s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-08-07T23:40:47+08:00 ] 195.222.58.189 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID C:\upupw\htdocs\pigcms0806\Common\functions.php 第 498 行.
+NOTIC: [8] Undefined index: name_id C:\upupw\htdocs\pigcms0806\Common\functions.php 第 499 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index: uid C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015624s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015624s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015624s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015624s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015624s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-08-07T23:41:14+08:00 ] 101.226.89.69 /index.php?g=Home&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID C:\upupw\htdocs\pigcms0806\Common\functions.php 第 498 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\6e27937fb5589b70015f39bf6f7a91c4.php 第 31 行.
+NOTIC: [8] Undefined index: uid C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\6e27937fb5589b70015f39bf6f7a91c4.php 第 31 行.
+NOTIC: [8] Undefined index: invitecode C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\6e27937fb5589b70015f39bf6f7a91c4.php 第 208 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015624s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015624s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015624s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015624s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015624s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-08-07T23:42:30+08:00 ] 195.222.58.189 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID C:\upupw\htdocs\pigcms0806\Common\functions.php 第 498 行.
+NOTIC: [8] Undefined index: name_id C:\upupw\htdocs\pigcms0806\Common\functions.php 第 499 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.015624s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015624s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index: uid C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015624s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015624s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015624s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015624s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-08-07T23:44:13+08:00 ] 195.222.58.189 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID C:\upupw\htdocs\pigcms0806\Common\functions.php 第 498 行.
+NOTIC: [8] Undefined index: name_id C:\upupw\htdocs\pigcms0806\Common\functions.php 第 499 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015623s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index: uid C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031247s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031247s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031247s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031247s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-08-07T23:47:35+08:00 ] 195.222.58.189 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.015624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015624s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID C:\upupw\htdocs\pigcms0806\Common\functions.php 第 498 行.
+NOTIC: [8] Undefined index: name_id C:\upupw\htdocs\pigcms0806\Common\functions.php 第 499 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.046870s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index: uid C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.046870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062494s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.109364s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.109364s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.109364s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.109364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015624s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.124988s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-08-07T23:48:14+08:00 ] 61.135.190.69 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID C:\upupw\htdocs\pigcms0806\Common\functions.php 第 498 行.
+NOTIC: [8] Undefined index: name_id C:\upupw\htdocs\pigcms0806\Common\functions.php 第 499 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index: uid C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015624s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015624s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015624s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015624s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015624s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-08-07T23:49:16+08:00 ] 195.222.58.189 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID C:\upupw\htdocs\pigcms0806\Common\functions.php 第 498 行.
+NOTIC: [8] Undefined index: name_id C:\upupw\htdocs\pigcms0806\Common\functions.php 第 499 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015624s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index: uid C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015624s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015624s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015624s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015624s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-08-07T23:50:57+08:00 ] 195.222.58.189 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID C:\upupw\htdocs\pigcms0806\Common\functions.php 第 498 行.
+NOTIC: [8] Undefined index: name_id C:\upupw\htdocs\pigcms0806\Common\functions.php 第 499 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015624s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index: uid C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015624s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015624s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015624s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015624s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-08-07T23:52:32+08:00 ] 195.222.58.189 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID C:\upupw\htdocs\pigcms0806\Common\functions.php 第 498 行.
+NOTIC: [8] Undefined index: name_id C:\upupw\htdocs\pigcms0806\Common\functions.php 第 499 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.015624s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015624s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index: uid C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015624s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015624s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015624s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015624s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-08-07T23:54:21+08:00 ] 195.222.58.189 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID C:\upupw\htdocs\pigcms0806\Common\functions.php 第 498 行.
+NOTIC: [8] Undefined index: name_id C:\upupw\htdocs\pigcms0806\Common\functions.php 第 499 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.015624s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.015624s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index: uid C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015624s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015624s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015624s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015624s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-08-07T23:56:03+08:00 ] 195.222.58.189 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID C:\upupw\htdocs\pigcms0806\Common\functions.php 第 498 行.
+NOTIC: [8] Undefined index: name_id C:\upupw\htdocs\pigcms0806\Common\functions.php 第 499 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index: uid C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015623s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015623s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015623s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015623s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-08-07T23:57:45+08:00 ] 195.222.58.189 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID C:\upupw\htdocs\pigcms0806\Common\functions.php 第 498 行.
+NOTIC: [8] Undefined index: name_id C:\upupw\htdocs\pigcms0806\Common\functions.php 第 499 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index: uid C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015623s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015623s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015623s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015623s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-08-07T23:59:30+08:00 ] 195.222.58.189 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: VAR_SESSION_ID C:\upupw\htdocs\pigcms0806\Common\functions.php 第 498 行.
+NOTIC: [8] Undefined index: name_id C:\upupw\htdocs\pigcms0806\Common\functions.php 第 499 行.
+SQL: SHOW COLUMNS FROM `tp_links` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tp_links` WHERE ( `status` = 1 )  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant uid - assumed 'uid' C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+NOTIC: [8] Undefined index: uid C:\upupw\htdocs\pigcms0806\Conf\logs\Cache\Home\921d53177c151344e729eca7c171fe97.php 第 31 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015624s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.015624s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.015624s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.015624s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.015624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.015624s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+

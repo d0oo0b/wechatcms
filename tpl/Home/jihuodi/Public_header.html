@@ -1,0 +1,29 @@
+<link rel="stylesheet" type="text/css" href="{pigcms::RES}/css/index.css" media="all" />
+<script src="{pigcms::RES}/js/html5.js"></script>
+<script type="text/javascript" src="{pigcms::RES}/js/jQuery.js"></script>
+<script type="text/javascript" src="{pigcms::RES}/js/carouFredSel.js"></script>
+<body>
+    <div class="nav clearfix">
+        <div class="nav-content">   
+		
+		<img src="{pigcms::C('logo')}"   >
+            <div class="right line-li">
+                <ul>
+                    <li><a href="/" class="hover">首页</a></li>
+                    <li><a href="{pigcms::U('Home/Index/fc')}">功能介绍</a></li>
+                    <li><a href="{pigcms::U('Home/Index/about')}">关于我们</a></li>
+                    <li><a href="{pigcms::U('Home/Index/price')}">资费说明</a></li>
+                    <li><a href="{pigcms::U('Home/Index/guide')}">案例展示</a></li>
+
+               	<if condition="$_SESSION[uid]==false">
+				<li><a href="{pigcms::U('Index/login')}">登录后台</a></li>
+				<li><a href="{pigcms::U('Index/reg')}" class="hover">申请试用</a></li>
+					<else/>
+                <li><a href="{pigcms::U('User/Index/index')}">管理中心</a></li>
+				<li><a href="/#" onClick="Javascript:window.open('{pigcms::U('System/Admin/logout')}','_blank')" >退出</a></li>
+				</if>	
+
+                </ul>
+            </div>
+      </div>
+    </div>

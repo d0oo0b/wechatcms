@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1, user-scalable=no">
+<meta content="{pigcms::C('keyword')}" name="Keywords">
+<meta content="{pigcms::C('content')}" name="Description">
+<title>{pigcms::C('site_name')}-微信公众平台互动营销专家</title>
+<link rel="stylesheet" type="text/css" href="{pigcms::RES}/css/base.css"/>
+<link rel="stylesheet" type="text/css" href="{pigcms::RES}/css/auth.css"/>
+<script type="text/javascript" src="{pigcms::RES}/js/jQuery.js"></script>
+<script type="text/javascript" src="{pigcms::RES}/js/sea.js"></script>
+<script type="text/javascript">seajs.use("{pigcms::RES}/js/base_common.js")</script>
+<script type="text/javascript" src="{pigcms::RES}/js/cj-lib.js"></script>
+<script type="text/javascript" src="{pigcms::RES}/js/validate.js"></script>
+<script type="text/javascript" src="{pigcms::RES}/js/md5.js"></script>
+</head>
+<include file="Public:header"/>
+    <div class="content ui-login-area WG-item">
+    	<div class="bgwrap">
+        	<img src="{pigcms::RES}/images/ambient.png" style="width:100%;height: auto;">
+        </div>
+        <div class="mbox" id="WG_mbox">
+            <div class="wPage">
+                <div class="ui-login-title">
+                    <div class="headline">在任何地方，在任何时间 <span>{pigcms::C('site_name')}，帮你打造最专业、最流行的微信智能公众平台</span></div>
+                </div>
+                <div class="ui-loginBox">
+                    <div class="ui-pos">
+                        <div class="ui-form no-longlogin" id="WG_loginbox">
+                            <div id="WG_Message" class="login-msg msg" style="display:none;">
+                                <p class="error"></p>
+                            </div>
+                            <div class="bd">
+                                <form action="{pigcms::U('Users/checklogin')}" enctype="multipart/form-data"  onsubmit="return onpost()" id="registerform" method="post">
+                                     <input name="step" value="2" type="hidden">
+                                     <input name="invite" value="" type="hidden">
+                                 <if condition="$_SESSION[uid]==false">
+                                <div class="field username-field">
+                                    <span class="place_holder" id="WG_username_ph">会员名/邮箱</span>
+                                    <input type="text" name="username" id="WG_username_input" value="" class="ui-text" maxlength="32" tabindex="1" autocomplete="off">
+                                </div>
+                                <div class="field password-field">
+                                    <span class="place_holder" id="WG_password_ph">密码</span>
+                                    <input type="password" name="password" id="WG_password" class="ui-text"  tabindex="2">            	
+                                </div>
+                                <div class="field btn-login-field">
+                                    <button type="submit" class="btn-login" tabindex="5" id="btn_submit">开 始 微 之 旅</button>
+                                </div>
+                                <div class="entries">
+                                    <a href="{pigcms::U('Home/Index/reg')}" class="btn-go-register">加入{pigcms::C('site_name')}</a>
+                                </div>
+                                <else/>
+                                <!--登录后开始 -->
+                                  <div class="field username-field">
+                                   <span class="place_holder" id="WG_username_ph">{pigcms:$Think.session.uname}</span>
+                                    <input type="text" name="username" id="WG_username_input" value="" class="ui-text" maxlength="32" tabindex="1" autocomplete="off">
+                                </div>
+                                <div class="field password-field">
+                                    <span class="place_holder" id="WG_password_ph">已登录</span>
+                                    <input type="password" name="password" id="WG_password" class="ui-text"  tabindex="2">            	
+                                </div>
+                                <div class="field btn-login-field">
+                                    <button type="1" class="btn-login" id="1">开 启 微 信 智 能 世 界</button>
+                                </div>
+                                <div class="entries">
+                                    <a href="{pigcms::U('Home/Index/reg')}" class="btn-go-register">管理中心</a>
+                                </div>
+                                <!--登录后结束 -->
+                                </if>
+                            </div>
+                            <div class="AppLogin">
+                            	<div class="toplink">或</div>
+                            	<a href="#" class="openid-btn openid-qqlogin"><span class="s"></span><span class="middle">使用腾讯QQ登录</span></a>
+                                <a href="#" class="openid-btn openid-sinalogin"><span class="s"></span><span class="middle">使用新浪微博登录</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript" src="{pigcms::RES}/js/login.js"></script>
+<script type="text/javascript">
+	window.WG_SSO = window.WG_SSO || {};
+	WG_SSO.CONSTANTS = {
+	};
+	window.SSOConfig = {
+		enable: true,   // 是否开启SSO跨域登录，有回调方法的可能
+		loginUrl: "{pigcms::U('Users/checklogin')}"// login url
+	};
+	fn_mLogin();
+	$(function(){
+		$(".WG-item").height($(window).height());
+		$(".WG-item:eq(0)").height($(window).height()-57);
+		$("#WG_mbox").css({"top":($(window).height()-$("#WG_mbox").height()-60)/2+"px"});
+		$(window).resize(function(){
+			$(".WG-item").height($(window).height());
+			$(".WG-item:eq(0)").height($(window).height()-57);
+			$("#WG_mbox").css({"top":($(window).height()-$("#WG_mbox").height()-60)/2+"px"});
+		})
+	})
+</script>
+<script type="text/javascript">
+function onpost() {
+	var pw = max.$("password");
+	var idname = max.$("idname");
+	if(idname.value == "") {
+		alert("请输入用户名");
+		return false;
+	}
+	if (pw.value == "" ){
+		alert("请输入密码");
+		return false;
+	}	
+	return true;
+}
+</script> 
+<script>
+$(function() {
+	
+    var $phone = $('.phone');
+    var top = $phone.css('top');
+    $phone.css({top: '-160px', display: 'inline'}).animate({top: top}, 2000, 'easeOutBounce') 
+    $('.txt1').slideDown(2000);
+	
+	$(".d1").hover(
+	 function(){
+	   	 $(".d3").parent().parent().parent().animate({ width:'135px'},300)
+		 $(".d2").parent().parent().parent().animate({ width:'135px'},300)
+		 $(".d1").parent().parent().parent().animate({ width:'545px'},300)
+	  }
+	)
+	$(".d2").hover(
+	 function(){
+	   	 $(".d1").parent().parent().parent().animate({ width:'135px'},300)
+		 $(".d3").parent().parent().parent().animate({ width:'135px'},300)
+		 $(".d2").parent().parent().parent().animate({ width:'545px'},300)
+	  }
+	)
+	$(".d3").hover(
+	 function(){
+	   	 $(".d1").parent().parent().parent().animate({ width:'135px'},300)
+		 $(".d2").parent().parent().parent().animate({ width:'135px'},300)
+		 $(".d3").parent().parent().parent().animate({ width:'545px'},300)
+	  }
+	)
+	
+});
+</script>
+<!--[if !IE]>底部<![endif]-->
+<include file="Public:footer"/>
+<!--[if !IE]>底部<![endif]-->
+</body>
+</html>

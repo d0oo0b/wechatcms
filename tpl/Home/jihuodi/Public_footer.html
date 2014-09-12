@@ -1,0 +1,51 @@
+<div class="erwei" title="微信扫一扫">
+	<span class="hudongzhushou">官方微信</span>
+	<div class="erwei_big" style="display:none;"><img src="{pigcms::C('erwei')}" >
+		<p>扫一扫，关注{pigcms::C('site_name')}官方微信，体验{pigcms::C('site_name')}智能服务<br>
+		<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin={pigcms::C('site_qq')}&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:{pigcms::C('site_qq')}:51" alt="点击这里给我发消息" title="点击这里给我发消息"/></a></p>
+	</div>
+</div>
+<script type="text/javascript">
+	$(document).ready(function(){
+		var erwei_time = null;
+		$(".erwei").hover(function(){
+			$(".erwei_big").show();
+		}).mouseleave(function(){
+				erwei_time = setTimeout(function(){
+					$(".erwei_big").hide();
+				},1000);
+			});
+		$(".erwei_big").mouseenter(function(){
+			if(erwei_time){
+				clearTimeout(erwei_time);
+			}
+		}).mouseleave(function(){
+				erwei_time = setTimeout(function(){
+					$(".erwei_big").hide();
+				},1000);
+			});
+	});
+</script>
+<!--QQ咨询-->
+<include file="Public:qq"/>
+<div class="footer">
+	<div class="footer-content clearfix">
+		<div class="foot-menu">
+			<p>
+				<a href="{pigcms::C('site_url')}">{pigcms::C('site_name')}首页</a>&nbsp;|&nbsp;
+				<a href="{pigcms::U('Index/reg')}" target="_blank">申请入驻</a>&nbsp;|&nbsp;
+				<a href="{pigcms::U('Home/Index/about')}" target="_blank">渠道代理</a>&nbsp;|&nbsp;
+				<a href="http://wpa.qq.com/msgrd?v=3&uin={pigcms::C('site_qq')}&site=qq&menu=yes" target="_blank">接口定制</a>&nbsp;|&nbsp;
+				<a href="http://wpa.qq.com/msgrd?v=3&uin={pigcms::C('site_qq')}&site=qq&menu=yes" target="_blank">微信托管</a>&nbsp;|&nbsp;
+				<a href="{pigcms::U('Home/Index/about')}" target="_blank">关于{pigcms::C('site_name')}</a>&nbsp;|&nbsp;
+				
+			</p>
+			<p>客服QQ：{pigcms::C('site_qq')}&nbsp;&nbsp;&nbsp;邮箱：{pigcms::C('site_email')}</p>
+		</div>
+		<div class="copyright">
+			Copyright © 2013-2014 {pigcms::C('site_url')}. All Rights Reserved {pigcms::C('site_name')}版权所有 </br> <a href="http://www.miitbeian.gov.cn" target="_blank" >{pigcms::C('ipc')}首页</a>
+		</div>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<div class="topbg">
+<div class="top">
+<div class="toplink">
+<style>
+.topbg{BACKGROUND-IMAGE: url({pigcms::RES}/images/top.png);BACKGROUND-REPEAT: repeat-x; height:28px; box-shadow:0 0 10px #000;-moz-box-shadow:0 0 10px #000;-webkit-box-shadow:0 0 10px #000;}
+.top {
+	MARGIN: 0px auto; WIDTH: 988px; HEIGHT: 0px;
+}
+
+.top .toplink{ height:27px; line-height:27px; color:#999; font-size:12px;}
+.top .toplink .welcome{ float:left;}
+.top .toplink .memberinfo{ float:right;}
+.top .toplink .memberinfo a{ color:#999;}
+.top .toplink .memberinfo a:hover{ color:#F90}
+.top .toplink .memberinfo a.green{ background:none; color:#0C0}
+
+.top .logo {WIDTH: 990px;COLOR: #333; height:70px;  FONT-SIZE:16px; PADDING-TOP:25px}
+.top h1{ font-size:25px; margin-top:20px; float:left; width:230px; margin:0; padding:0;}
+.top .navr {WIDTH:750px; float:right; overflow:hidden; margin-top:10px;}
+.top .navr ul{ width:850px;}
+.navr LI {TEXT-ALIGN:center;FLOAT: left;HEIGHT:32px;FONT-SIZE:1em;width:103px; margin-right:5px;}
+.navr LI A {width:103px;TEXT-ALIGN:center; LINE-HEIGHT:30px; FLOAT: left;HEIGHT:32px;COLOR: #333; FONT-SIZE: 1em;TEXT-DECORATION: none
+}
+.navr LI A:hover {BACKGROUND: url({pigcms::RES}/images/navhover.gif) center no-repeat;color:#009900;}
+.navr LI.menuon {BACKGROUND: url({pigcms::RES}/images/navon.gif) center no-repeat; display:block;width:103px;HEIGHT:32px;}
+.navr LI.menuon a{color:#FFF;}
+.navr LI.menuon a:hover{BACKGROUND: url(img/navon.gif) center no-repeat;}
+.banner{height:200px; text-align:center; border-bottom:2px solid #ddd;}
+.hbanner{ background: url(img/h2003070126.jpg) center no-repeat #B4B4B4;}
+.gbanner{ background: url(img/h2003070127.jpg) center no-repeat #264C79;}
+.jbanner{ background: url(img/h2003070128.jpg) center no-repeat #E2EAD5;}
+.dbanner{ background: url(img/h2003070129.jpg) center no-repeat #009ADA;}
+.nbanner{ background: url(img/h2003070130.jpg) center no-repeat #ffca22;}
+</style>
+<div class="welcome">欢迎使用微兄弟微信营销服务平台!</div>
+    <div class="memberinfo"  id="destoon_member">	
+		<if condition="$_SESSION[uid]==false">
+			<a href="{pigcms::U('Index/login')}">登录</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+			<a href="{pigcms::U('Index/login')}">注册</a>
+			<else/>
+			你好,<a href="/#" hidefocus="true"  ><span style="color:red">{pigcms:$Think.session.uname}</span></a>（uid:{pigcms:$Think.session.uid}）
+			<a href="/#" onclick="Javascript:window.open('{pigcms::U('System/Admin/logout')}','_blank')" >退出</a>
+	</if>	
+	</div>
+</div>
+    </div>
+</div>

@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>{pigcms::C('site_name')}——{pigcms::C('site_title')}</title>
+<meta name="keywords" content="{pigcms::C('keyword')}"/>
+<meta name="description" content="{pigcms::C('content')}"/>
+<script src="{pigcms::RES}/js/html5.js"></script>
+<link rel="stylesheet" type="text/css" href="{pigcms::RES}/css/index.css" media="all" />
+<script type="text/javascript" src="{pigcms::RES}/js/jQuery.js"></script>
+<script type="text/javascript" src="{pigcms::RES}/js/weimob-index.js"></script>
+<link rel="shortcut icon" href="{pigcms::RES}/images/favicon.ico" />
+</head>
+<include file="Public:header"/>
+<div class="Public-content clearfix">
+	<div class="Public">
+		<h1 class="Public-h2">注册</h1>
+		<div class="Public-box clearfix">
+			<div class="reg-wrapper2">
+		<form id="regform" class="form-horizontal" action="/index.php?m=Users&amp;a=checkreg" method="post">
+		  <div class="control-group">
+		    <label class="control-label" for="username">用户名</label>
+		    <div class="controls" >
+		      <input type="text" name="username" id="username" onClick="javascript:_gaq.push(['_trackPageview','/home/reg/virtual/Username']);">
+		      <span class="maroon">*</span><span class="help-inline">长度为6~16位字符，可以为“数字/字母/中划线/下划线”组成</span>
+		    </div>
+		  </div>
+		  <div class="control-group">
+		    <label class="control-label" for="password">用户密码</label>
+		    <div class="controls">
+		      <input type="password" name="password" id="password" onClick="javascript:_gaq.push(['_trackPageview','/home/reg/virtual/Password']);">
+		      <span class="maroon">*</span><span class="help-inline">长度为6~16位字符</span>
+		    </div>
+		  </div>
+		  <div class="control-group">
+		    <label class="control-label" for="repassword">重复密码</label>
+		    <div class="controls">
+		      <input type="password" name="repassword" id="repassword" onClick="javascript:_gaq.push(['_trackPageview','/home/reg/virtual/Password']);">
+		    </div>
+		  </div>
+		  <div class="control-group">
+		    <label class="control-label" for="email">邮箱</label>
+		    <div class="controls">
+		      <input type="text" name="email" id="email" onClick="javascript:_gaq.push(['_trackPageview','/home/reg/virtual/Mail']);">
+		      <span class="maroon">*</span><span class="help-inline">邮箱将与支付及优惠相关，请填写正确的邮箱</span>
+		    </div>
+		  </div>
+		  <div class="control-group">
+		  	<div class="controls">
+			    <button type="submit" id="reg-btn" class="btn-register"></button>
+		  	</div>
+		  </div>
+		</form>
+		</div>
+		</div>
+	</div>
+</div>
+
+<include file="Public:footer"/>
