@@ -37,3 +37,6 @@ Icon
 
 /uploads/
 /Conf/logs/
+/cms/cache/
+/cms/smarty/templates_c/
+/cms/upload/*

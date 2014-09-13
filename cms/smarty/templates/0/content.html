@@ -6,17 +6,26 @@
 {/literal}{if $ismap}
 {$mapstr}
 {else}
-<div class="sub">
-	<div class="subsearchbox" style="height:20px;">
-    	
-    </div>
-            <h1><p>{$content.title}</p></h1>
-	<div class="view" id="content">{$content.content}</div>
-	<div style="clear:both"></div>
-	{if $previousContent}<a href="{$previousContent->link}" class="prevpage">上一条：<span>{$previousContent->title}</span></a>{/if}
-	{if $nextContent}<a href="{$nextContent->link}" class="nextpage">下一条：<span>{$nextContent->title}</span></a>{/if}
+			<!--内页内容-->
+<div class="content_box">
+	<div class="news_box">
+		<section class="news_content">
+            <header class="news_title">{$content.title}</header>
+            <p class="up_time" style="display:none">发表日期:<time puddate="pubdate"> {$content.time|date_format:"%Y-%m-%d"}</time></p>
+            
+            <article style="width:100%;">
+             <div class="news_text" id="content">{$content.content}</div> 
+             
+            </article>
+          </section>
+		<div class="menu_box">
+		
+		{if $nextContent}<a style="float:right" href="{$nextContent->link}" class="nextpage">下一条</a>{/if}
+			{if $previousContent}<a style="float:right" href="{$previousContent->link}" class="prevpage">上一条</a>{/if}
 	
-    <a href="{$smarty.server.HTTP_REFERER}" title="返回列表" class="backlist"><img src="smarty/templates/tpls/zongse/back.jpg" alt="返回列表"></a>
+		</div>
+	</div>
 </div>
+<!--内容结束-->
 {/if}
 {include file=$footer}

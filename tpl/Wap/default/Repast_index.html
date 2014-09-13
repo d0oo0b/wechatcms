@@ -6,14 +6,16 @@
 </div>
 <volist name="company" id="com">
   <div class="box box-list">
-  <a href="{pigcms::U('Repast/select', array('token'=>$token, 'wecha_id'=>$wecha_id, 'cid'=>$com['id']))}" class="bd fw">
+  <a href="{pigcms::U('Card/companyMap', array('token'=>$token, 'wecha_id'=>$wecha_id, 'companyid'=>$com['id']))}" class="bd fw">
     <b>{pigcms:$com['name']}</b>
     <p>{pigcms:$com['address']}</p>
   </a><!-- 详情 -->
   <div class="ft table">
+	  <!--
       <a class="td" href="{pigcms::U('Repast/select', array('token'=>$token, 'wecha_id'=>$wecha_id, 'cid'=>$com['id']))}">
         <img src="../tpl/static/repast/css/img/ico-wine.png">购药咨询
       </a>
+	  -->
       <a class="td order" href="tel:{pigcms:$com['tel']}"><img src="../tpl/static/repast/css/img/ico-call.png">联系药师</a>
       <a class="td" href="{pigcms::U('Card/companyMap', array('token'=>$token, 'wecha_id'=>$wecha_id, 'companyid'=>$com['id']))}">
         <img src="../tpl/static/repast/css/img/ico-location.png">药店导航
