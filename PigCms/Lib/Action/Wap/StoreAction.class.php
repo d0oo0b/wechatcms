@@ -52,12 +52,12 @@ class StoreAction extends WapAction{
 	}
 	
 	public function index() {
-		$this->assign('metaTitle', '商品分类');
+		$this->assign('metaTitle', '药品分类');
 		$this->display('cats');
 	}
 	
 	public function cats() {
-		$this->assign('metaTitle', '商品分类');
+		$this->assign('metaTitle', '药品分类');
 		$this->display();
 	}
 	

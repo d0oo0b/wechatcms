@@ -2,11 +2,12 @@
 <body id="page_intelOrder" class="myOrderCon">
 
 <div style="float:none;width:100%;" class="headselect">
-	<a class="link_tel icon-phone">我的订单</a>
+	<a class="link_tel icon-phone">我的咨询</a>
 </div>
 <div class="container">
 <br/>
 <header id="container">
+	<!--
 	<div>
 	    <select class="select_orderType" onchange="orderList(this);">
 	        <option value="0" <php>if ($status == 0) {echo "selected";}</php> >全部就餐状态</option>
@@ -15,34 +16,40 @@
 	        <option value="4" <php>if ($status == 4) {echo "selected";}</php> >已付款，已就餐</option>
 	    </select>
 	</div>
+	-->
 	<div style="padding:10px 0;">
 		<ul class="list_order" id='list'>
 			<volist name="orderList" id="order">
 			<li>
-				<label style="float:none;" onclick="this.classList.toggle('on');">订餐人：{pigcms:$order.name}&nbsp;预约时间：{pigcms:$order.reservetime|date="Y-m-d H:i:s",###} </label>
+				<label style="float:none;" onclick="this.classList.toggle('on');">咨询说明：{pigcms:$order.des} </label>
 				<ol>
 					<!-- <p>就餐地址： 上海市宝山区 </p> 
 					<p>付款方式：线下支付</p> -->
 					<table>
 						<thead>
 							<tr>
-							    <td colspan="3" style="font-size:16px;">我的菜单</td>
+							    <td colspan="3" style="font-size:16px;">我的药师</td>
 							</tr>
+							<!--
 							<tr>
 							    <td style="width:33%">菜名</td>
 								<td style="width:33%">单价</td>
 							    <td>数量</td>
 							</tr>
+							-->
 						</thead>
 						<tbody>
 						<volist name="order['info']['list']" id="row">
 						<tr>
 							<td>{pigcms:$row.name}</td>
+							<!--
 							<td>{pigcms:$row.price}元</td>
 							<td>{pigcms:$row.num}份</td>
+							-->
 						</tr>
 						</volist>
 						</tbody>
+						<!--
  						<tfoot>
 						<tr>
 							<td colspan="3" style="text-align:right;">
@@ -53,6 +60,7 @@
 							</td>
 						</tr>
 						</tfoot>
+						-->
 					</table>
 				</ol>
 			</li>

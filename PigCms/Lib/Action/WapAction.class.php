@@ -20,6 +20,7 @@ class WapAction extends BaseAction{
             S('wxuser_' . $this -> token, $this -> wxuser);
         }
         $this -> assign('wxuser', $this -> wxuser);
+		//echo($_GET['wecha_id'].'||'.$this -> wxuser['winxintype'].'||'.$_GET['code'].'||'.$this -> wxuser['oauth']);
         if (!$_GET['wecha_id'] && $this -> wxuser['winxintype'] == 3 && !isset($_GET['code']) && $this -> wxuser['oauth']){
             $customeUrl = $this -> siteUrl . $_SERVER['REQUEST_URI'];
             $scope = 'snsapi_userinfo';
@@ -27,11 +28,12 @@ class WapAction extends BaseAction{
                 $scope = 'snsapi_base';
             }
             $oauthUrl = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid=' . $this -> wxuser['appid'] . '&redirect_uri=' . urlencode($customeUrl) . '&response_type=code&scope=' . $scope . '&state=oauth#wechat_redirect';
-            header('Location:' . $oauthUrl);
+			header('Location:' . $oauthUrl);
         }
         if (isset($_GET['code']) && isset($_GET['state']) && isset($_GET['state']) == 'oauth'){
             $rt = $this -> curlGet('https://api.weixin.qq.com/sns/oauth2/access_token?appid=' . $this -> wxuser['appid'] . '&secret=' . $this -> wxuser['appsecret'] . '&code=' . $_GET['code'] . '&grant_type=authorization_code');
-            $jsonrt = json_decode($rt, 1);
+            //echo($rt);
+			$jsonrt = json_decode($rt, 1);
             $openid = $jsonrt['openid'];
             $access_token = $jsonrt['access_token'];
             $_GET['wecha_id'] = $openid;

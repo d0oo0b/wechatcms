@@ -1,7 +1,7 @@
 <?php
 class RepastAction extends WapAction{
     public $token;
-    public $wecha_id = 'gh_aab60b4c5a39';
+    //public $wecha_id = 'gh_aab60b4c5a39';
     public $session_dish_info;
     public $session_dish_user;
     public $_cid = 0;
@@ -13,10 +13,10 @@ class RepastAction extends WapAction{
         }
         $this -> token = isset($_REQUEST['token']) ? $_REQUEST['token'] : session('token');
         $this -> assign('token', $this -> token);
-        $this -> wecha_id = isset($_REQUEST['wecha_id']) ? $_REQUEST['wecha_id'] : '';
-        if (!$this -> wecha_id){
-            $this -> wecha_id = '';
-        }
+        //$this -> wecha_id = isset($_REQUEST['wecha_id']) ? $_REQUEST['wecha_id'] : '';
+        //if (!$this -> wecha_id){
+        //    $this -> wecha_id = '';
+        //}
         $this -> assign('wecha_id', $this -> wecha_id);
         $this -> _cid = $_SESSION["session_company_{$this->token}"];
         $this -> assign('cid', $this -> _cid);
@@ -26,7 +26,7 @@ class RepastAction extends WapAction{
         $count = count($menu);
         $this -> assign('totalDishCount', $count);
     }
-    public function index(){       
+    public function index(){     
         $data = M('dish_company');
         $list = $data->select();  
 	$id_arr = array();
@@ -48,7 +48,7 @@ class RepastAction extends WapAction{
             $this -> redirect(U('Repast/select', array('token' => $this -> token, 'wecha_id' => $this -> wecha_id, 'cid' => $company[0]['id'])));
         }
         $this -> assign('company', $company);
-        $this -> assign('metaTitle', '餐厅分布');
+        $this -> assign('metaTitle', '周边药店');
         $this -> display();
     }
     public function select(){
@@ -59,18 +59,27 @@ class RepastAction extends WapAction{
         }else{
             $this -> redirect(U('Repast/index', array('token' => $this -> token, 'wecha_id' => $this -> wecha_id)));
         }
+		
         if ($dishCompany = M('Dish_company') -> where(array('cid' => $cid)) -> find()){
             $istakeaway = $dishCompany['istakeaway'];
         }
         $this -> assign('istakeaway', $istakeaway);
-        $this -> assign('metaTitle', '点餐选择');
+        $this -> assign('metaTitle', '药速达');
+		/* 不选择下单方式,直接跳转到外卖
         $this -> display();
+		*/
+		// begin
+		$_GET['takeaway'] = '1';
+		$this->selectTable();
+		
+		// end
+		
     }
     public function virtual(){
         $cid = isset($_GET['cid']) ? intval($_GET['cid']) : 0;
         $company = M('Company') -> where(array('token' => $this -> token, 'id' => $cid)) -> find();
         $this -> assign('company', $company);
-        $this -> assign('metaTitle', '餐厅介绍');
+        $this -> assign('metaTitle', '药房介绍');
         $this -> display();
     }
     public function selectTable(){//to Repast/saveUser
@@ -110,7 +119,8 @@ class RepastAction extends WapAction{
         $this -> assign('tables', $table);
         $this -> assign('metaTitle', '填写个人信息');
         $this -> assign('time', date("Y-m-d H:i:s"));
-        $this -> display();
+		$this -> assign('wecha_id', $this -> wecha_id);
+        $this -> display('selectTable');
     }
     public function getTable(){
         $date = isset($_POST['redate']) ? htmlspecialchars($_POST['redate']) : '';
@@ -135,7 +145,7 @@ class RepastAction extends WapAction{
     public function get_sms_auth_code() {
         if ($_POST['tel']) {
             $this->_sms_auth_code = rand(100000, 999999);
-            $res = Sms :: sendSms($this -> token . "_" . $this -> _cid, "您的订餐短信验证码是". $this->_sms_auth_code ."请妥善保管", $_POST['tel']);            
+            $res = Sms :: sendSms($this -> token . "_" . $this -> _cid, "您的短信验证码是". $this->_sms_auth_code ."请妥善保管", $_POST['tel']);            
             exit(json_encode(array('success' => 1, 'msg' => $this->_sms_auth_code)));
         } else {
             exit(json_encode(array('success' => 0, 'msg' => '电话号码不能为空')));
@@ -143,7 +153,7 @@ class RepastAction extends WapAction{
     }    
     public function saveUser(){//保存订单  //2-现场点餐 0-在线预订 1-外卖（店铺上设置）
         if ($_POST['tel_auth_code'] != $_POST['tel_auth_code_ajax']) {
-            exit(json_encode(array('success' => 0, 'msg' => '您的手机短信验证码错误，不能订餐!')));            
+            exit(json_encode(array('success' => 0, 'msg' => '您的手机短信验证码错误!')));            
         }        
         $takeaway = isset($_POST['takeaway']) ? intval($_POST['takeaway']) : 0;
         $tel = $table = $address = $des = $name = '';
@@ -168,9 +178,11 @@ class RepastAction extends WapAction{
             $hour = isset($_POST['rehour']) ? htmlspecialchars($_POST['rehour']) : '';
             $second = isset($_POST['resecond']) ? htmlspecialchars($_POST['resecond']) : '';
             $reservetime = strtotime($date . ' ' . $hour . ':' . $second . ':00');
+			/*
             if ($reservetime < time()){
                 exit(json_encode(array('success' => 0, 'msg' => '预约用餐时间不可以小于当前时间')));
             }
+			*/
             $nums = isset($_POST['nums']) ? intval($_POST['nums']) : 1;
         }else{
             $reservetime = time() + 600;
@@ -269,7 +281,7 @@ class RepastAction extends WapAction{
             $dish = array();
         }
         $this -> assign('dishlist', $dish);
-        $this -> assign('metaTitle', '我喜欢的菜');
+        $this -> assign('metaTitle', '我喜欢的药师');
         $this -> display();
     }
     public function editOrder(){
@@ -294,7 +306,7 @@ class RepastAction extends WapAction{
     public function mymenu(){
         $userInfo = unserialize($_SESSION[$this -> session_dish_user]);
         if (empty($userInfo)){
-            $this -> error('没有填写用餐信息，先填写信息，再提交订单！', U('Repast/select', array('token' => $this -> token, 'wecha_id' => $this -> wecha_id, 'cid' => $this -> _cid)));
+            $this -> error('请先填写信息，再提交！', U('Repast/select', array('token' => $this -> token, 'wecha_id' => $this -> wecha_id, 'cid' => $this -> _cid)));
         }
         $menu = $this -> getDishMenu();
         $data = array();
@@ -331,7 +343,7 @@ class RepastAction extends WapAction{
     }
     public function getInfo(){
         if (empty($this -> wecha_id)){
-            exit(json_encode(array('success' => 0, 'msg' => '无法获取您的微信身份，请关注“公众号”，然后回复“订餐”来使用此功能')));
+            exit(json_encode(array('success' => 0, 'msg' => '无法获取您的微信身份，请关注“公众号”，然后使用此功能')));
         }
         exit(json_encode(array('success' => 1, 'msg' => 'ok')));
     }
@@ -340,16 +352,16 @@ class RepastAction extends WapAction{
     public function saveMyOrder(){
         if (empty($this -> wecha_id)){
             unset($_SESSION[$this -> session_dish_info]);
-            $this -> error('您的微信账号为空，不能订餐!');
-            exit(json_encode(array('success' => 0, 'msg' => '您的微信账号为空，不能订餐!')));
+            $this -> error('您的微信账号为空。');
+            exit(json_encode(array('success' => 0, 'msg' => '您的微信账号为空!')));
         }
         $dishs = $this -> getDishMenu();
         if (empty($dishs)){
-            $this -> error('没有点餐，请去点餐吧!');
+            $this -> error('没有咨询信息。');
         }
         $userInfo = unserialize($_SESSION[$this -> session_dish_user]);//已有好多信息数组
         if (empty($userInfo)){
-            $this -> error('您的个人信息有误，请重新下单!', U('Repast/selectTable', array('token' => $this -> token, 'wecha_id' => $this -> wecha_id, 'cid' => $this -> _cid)));
+            $this -> error('您的个人信息有误，请重新填写!', U('Repast/selectTable', array('token' => $this -> token, 'wecha_id' => $this -> wecha_id, 'cid' => $this -> _cid)));
         }
         $userInfo['cid'] = $this ->_cid;
         $userInfo['wecha_id'] = $this -> wecha_id;
@@ -512,8 +524,8 @@ class RepastAction extends WapAction{
 
             exit(json_encode(array('success' => 1, 'msg' => 'ok', 'orderid' => $userInfo['orderid'], 'orderName' => $userInfo['orderid'], 'price' => $price, 'isopen' => $alipayConfig['open'])));
         }else{
-            $this -> error('订单出错，请重新下单');
-            exit(json_encode(array('success' => 0, 'msg' => '订单出错，请重新下单')));
+            $this -> error('信息出错，请重新操作');
+            exit(json_encode(array('success' => 0, 'msg' => '信息出错，请重新操作')));
         }
     }
 	//测试打印 $dishCompany['memberCode'] && $dishCompany['feiyin_key'] && $dishCompany['deviceNo']
@@ -639,7 +651,7 @@ class RepastAction extends WapAction{
         }
         $this -> assign('orderList', $list);
         $this -> assign('status', $status);
-        $this -> assign('metaTitle', '我的订单');
+        $this -> assign('metaTitle', '我的咨询');
         $this -> display();
     }
     public function getDishMenu(){

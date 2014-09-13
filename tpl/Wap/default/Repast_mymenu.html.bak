@@ -37,7 +37,7 @@
 <header style="padding-top:20px;">
     <span class="pCount" style="">已点<l style="color:red" id="countnums" nums="{pigcms:$totalNum}">{pigcms:$totalNum}</l>个菜</span>
     <if condition="$userInfo['price'] gt 0">
-    <label><i>送餐费：</i><b class="duiqi">{pigcms:$userInfo['price']}</b><b class="duiqi">元</b></label>
+    <label><i>配送费：</i><b class="duiqi">{pigcms:$userInfo['price']}</b><b class="duiqi">元</b></label>
     </if>
     <label><i>共计：</i><b class="duiqi" id="total" price="{pigcms:$totalPrice}">{pigcms:$totalPrice}</b><b class="duiqi">元</b>&nbsp;&nbsp;</label>   
 </header>
@@ -88,7 +88,7 @@
                 </if>
                 <if condition="$userInfo['takeaway'] eq 1">
                 <tr id="dishaddress">
-                    <td style="width:80px;">送餐地址：</td>
+                    <td style="width:80px;">配送地址：</td>
                     <td>{pigcms:$userInfo['address']}</td>
                 </tr>
                 <else/>

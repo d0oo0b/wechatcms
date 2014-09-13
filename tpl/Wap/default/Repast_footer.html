@@ -39,10 +39,10 @@ ul, li { list-style:none; margin:0; padding:0 }
 	<ul id="top_menu" class="top_menu">
 		<li><a href="{pigcms::U('Index/index', array('token'=>$token, 'wecha_id'=>$wecha_id))}"><img src="/tpl/User/default/common/images/photo/plugmenu6.png"><label>首页</label></a></li>
 		<li><a href="{pigcms::U('Repast/index', array('token'=>$token, 'wecha_id'=>$wecha_id))}"><img src="/tpl/User/default/common/images/photo/plugmenu5.png"><label>选择</label></a></li>    
-		<li><a onclick="t(1, '{pigcms::U('Repast/dish', array('token'=>$token, 'wecha_id'=>$wecha_id, 'cid'=>$cid))}');"><img src="/tpl/User/default/common/images/photo/plugmenu11.png"><label>点菜</label></a></li>
+		<li><a onclick="t(1, '{pigcms::U('Repast/dish', array('token'=>$token, 'wecha_id'=>$wecha_id, 'cid'=>$cid))}');"><img src="/tpl/User/default/common/images/photo/plugmenu11.png"><label>选药</label></a></li>
 		<li><a onclick="javascript:displayit(3)" id="childmenu"><img src="/tpl/User/default/common/images/photo/plugmenu2.png"><label>我的</label></a>
 			<ul id="menu_list3" class="menu_font" style=" display:none">
-				<li><a onclick="t(3, '{pigcms::U('Repast/myOrder', array('token'=>$token, 'wecha_id'=>$wecha_id, 'cid'=>$cid))}');"><img src="/tpl/User/default/common/images/photo/plugmenu4.png"><label>我的订单</label></a></li>
+				<li><a onclick="t(3, '{pigcms::U('Repast/myOrder', array('token'=>$token, 'wecha_id'=>$wecha_id, 'cid'=>$cid))}');"><img src="/tpl/User/default/common/images/photo/plugmenu4.png"><label>我的咨询</label></a></li>
 				<li><a onclick="t(4, '{pigcms::U('Repast/like', array('token'=>$token, 'wecha_id'=>$wecha_id, 'cid'=>$cid))}');"><img src="/tpl/User/default/common/images/photo/plugmenu18.png"><label>我的喜欢</label></a></li>
 			</ul>
 		</li>
@@ -92,7 +92,7 @@ function t(index, url) {
 			location.href = url;
 		}
 	} else {
-	    MDialog.confirm('', '请您先选择餐厅？', null,
+	    MDialog.confirm('', '请您先选择药店', null,
 	            '确定', function() {
 	    					isCancle = false;
 	    					location.href = "{pigcms::U('Repast/index', array('token'=>$token, 'wecha_id'=>$wecha_id))}";

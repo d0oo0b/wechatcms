@@ -57,7 +57,7 @@
 </ul>
 <div class="m-cart-toal">
 <!-- <p style="color:#E58B4C;text-align:left;padding:0 10px 1rem;border-bottom:1px dotted #ccc;margin:0 -10px 1rem;font-size:1.2rem;line-height:1.4rem">享受的优惠: 注册名鞋库会员，满百包邮！（货到付款除外）</p> -->
-<p class="check" style="font-size:1.4rem">商品总数:<b id="total_count">{pigcms:$totalCount}</b>　商品总额:<b id="total_price">￥{pigcms:$totalFee}</b></p>
+<p class="check" style="font-size:1.4rem">药品总数:<b id="total_count">{pigcms:$totalCount}</b>　药品总额:<b id="total_price">￥{pigcms:$totalFee}</b></p>
 <p class="act">
 	<a href="{pigcms::U('Store/index',array('token'=>$_GET['token'], 'wecha_id'=>$_GET['wecha_id']))}" class="back">继续购物<i></i></a>
 	<a href="{pigcms::U('Store/orderCart',array('token'=>$_GET['token'], 'wecha_id'=>$_GET['wecha_id']))}" class="checkout">下单结算</a>
@@ -66,8 +66,8 @@
 <else/>
 <div class="m-cart-e">
 <div class="icon"></div>
-<div class="txt">您还没有挑选商品哦</div>
-<a href="{pigcms::U('Store/cats',array('token'=>$_GET['token'],'wecha_id'=>$_GET['wecha_id']))}" class="gobuy">去挑选商品</a>
+<div class="txt">您还没有挑选药品哦</div>
+<a href="{pigcms::U('Store/cats',array('token'=>$_GET['token'],'wecha_id'=>$_GET['wecha_id']))}" class="gobuy">去挑选药品</a>
 </div>
 </if>
 <script type="text/javascript">

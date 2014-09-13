@@ -2,9 +2,8 @@
 <link rel="stylesheet" type="text/css" href="../tpl/static/repast/css/style.css" media="all">
 <body id="cardunion" class="mode_webapp2">
 <div style="float:none;width:100%;" class="headselect">
-	<a class="link_tel icon-phone">请选择订餐门店</a>
+	<a class="link_tel icon-phone">请选择药店</a>
 </div>
-
 <volist name="company" id="com">
   <div class="box box-list">
   <a href="{pigcms::U('Repast/select', array('token'=>$token, 'wecha_id'=>$wecha_id, 'cid'=>$com['id']))}" class="bd fw">
@@ -13,11 +12,11 @@
   </a><!-- 详情 -->
   <div class="ft table">
       <a class="td" href="{pigcms::U('Repast/select', array('token'=>$token, 'wecha_id'=>$wecha_id, 'cid'=>$com['id']))}">
-        <img src="../tpl/static/repast/css/img/ico-wine.png">订餐
+        <img src="../tpl/static/repast/css/img/ico-wine.png">购药咨询
       </a>
-      <a class="td order" href="tel:{pigcms:$com['tel']}"><img src="../tpl/static/repast/css/img/ico-call.png">电话</a>
+      <a class="td order" href="tel:{pigcms:$com['tel']}"><img src="../tpl/static/repast/css/img/ico-call.png">联系药师</a>
       <a class="td" href="{pigcms::U('Card/companyMap', array('token'=>$token, 'wecha_id'=>$wecha_id, 'companyid'=>$com['id']))}">
-        <img src="../tpl/static/repast/css/img/ico-location.png">导航
+        <img src="../tpl/static/repast/css/img/ico-location.png">药店导航
       </a>
   </div>
 </div>

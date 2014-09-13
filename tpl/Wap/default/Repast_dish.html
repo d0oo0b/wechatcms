@@ -67,7 +67,7 @@ function switchList(id){
         ai = window.res[0];
     }
     var checkHtml = '';
-    var TPL = '<dl dunitname="{unit}" dsubcount="1" dishid="{id}" dname="{name}" dtaste="" ddescribe="{note}" dprice="{price}" dishot="{tag_name}" dspecialprice="{discount_price}" disspecial="1" onclick="selectOne(this, {id}, {price});">\
+	var TPL = '<dl dunitname="{unit}" dsubcount="1" dishid="{id}" dname="{name}" dtaste="" ddescribe="{note}" dprice="{price}" dishot="{tag_name}" dspecialprice="{discount_price}" disspecial="1" onclick="selectOne(this, {id}, {price});">\
             <dt><h3>{name}{html_name}</h3></dt>\
             <dd>\
                 <a href="javascript:void(0)" class="dataIn" onclick="showImgDetail(this);event.stopPropagation();">\
@@ -78,10 +78,6 @@ function switchList(id){
                                 
          TPL +='</a>\
             </dd>\
-            <dd>\
-                <em>{price}元/{unit}</em>\
-            </dd>\
-            <!--dd class="dpNum">961人点过</dd-->\
             <input type="checkbox" class="favourite" style="border:0;" value="{id}" {check} onclick="favourite(this, event);">\
             <button shopinfo="" class="{curState}"></button>\
         </dl>';
@@ -105,9 +101,9 @@ function showImgDetail(thi){
 
     popPic(childImg.src,
             parentDl.getAttribute('dname'),
-            parentDl.getAttribute('dprice') + '元/' + parentDl.getAttribute('dunitName'),
+            '',//parentDl.getAttribute('dprice') + '元/' + parentDl.getAttribute('dunitName'),
             parentDl.getAttribute('dIsSpecial'),
-            parentDl.getAttribute('dSpecialPrice') + '元/' + parentDl.getAttribute('dunitName'),
+            '',//parentDl.getAttribute('dSpecialPrice') + '元/' + parentDl.getAttribute('dunitName'),
             parentDl.getAttribute('dsubCount'),
             parentDl.getAttribute('dtaste'),
             parentDl.getAttribute('ddescribe'),

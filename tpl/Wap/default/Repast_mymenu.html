@@ -35,30 +35,36 @@
 <body id="page_intelOrder" class="myOrderCon">
 <div class="container">
 <header style="padding-top:20px;">
+	<!--
     <span class="pCount" style="">已点<l style="color:red" id="countnums" nums="{pigcms:$totalNum}">{pigcms:$totalNum}</l>个菜</span>
     <if condition="$userInfo['price'] gt 0">
     <label><i>送餐费：</i><b class="duiqi">{pigcms:$userInfo['price']}</b><b class="duiqi">元</b></label>
     </if>
     <label><i>共计：</i><b class="duiqi" id="total" price="{pigcms:$totalPrice}">{pigcms:$totalPrice}</b><b class="duiqi">元</b>&nbsp;&nbsp;</label>   
+	-->
 </header>
 <section style="margin-bottom:10px;">
     <article>
-        <h2>我的菜单
-            <button class="btn_add emptyIt" id="clearBtn" onclick="clearAll();">清空</button>
+        <h2>我的药师
+            <!--
+			<button class="btn_add emptyIt" id="clearBtn" onclick="clearAll();">清空</button>
             <button class="btn_add" onclick="location.href = '{pigcms::U('Repast/dish', array('token'=>$token, 'wecha_id'=>$wecha_id, 'cid'=>$cid))}'">+加菜</button>
-        </h2>
+			-->
+		</h2>
         <ul id="myorder" class="myorder">
 	        <volist name="my_dish" id="dish">
 	        <li class="dish_item">                    
 		        <span class="dishName">{pigcms:$dish['name']}</span>                    
-		        <i>{pigcms:$dish['price']}元/份</i>                    
-		        <!-- <span class="btn_common" onclick="slideOn(this, event);">添加备注</span>    -->                 
+		        <!--<i>{pigcms:$dish['price']}元/份</i>  -->                  
+		        <!-- <span class="btn_common" onclick="slideOn(this, event);">添加备注</span>    -->            
+				<!--
 		        <div><textarea name="description" class="des" did="{pigcms:$dish['id']}" id="des_{pigcms:$dish['id']}">{pigcms:$dish['des']}</textarea></div>                    
 		        <section class="bbox" dishname="{pigcms:$dish['name']}" onclick="changeCount(this, event, '{pigcms:$dish['price']}', '{pigcms:$dish['id']}');">                        
 		        <input class="btn-reduce" type="button" value="-">                        
 		        <input class="numBox" name="numBox" type="text" value="{pigcms:$dish['nums']}" price="{pigcms:$dish['price']}" did="{pigcms:$dish['id']}" readonly="readonly">                        
 		        <input type="button" class="btn-plus" value="+">              
-		        </section>                    
+		        </section>    
+				-->                
 	        </li>
 	        </volist>
         </ul>
@@ -88,7 +94,7 @@
                 </if>
                 <if condition="$userInfo['takeaway'] eq 1">
                 <tr id="dishaddress">
-                    <td style="width:80px;">送餐地址：</td>
+                    <td style="width:80px;">配送地址：</td>
                     <td>{pigcms:$userInfo['address']}</td>
                 </tr>
                 <else/>
@@ -98,6 +104,7 @@
                 </tr>
                 </if>
                 <if condition="$userInfo['takeaway'] neq 2">
+				<!--
                 <tr>
                     <td style="width:80px;">就餐时间：</td>
                     <td colspan="2">{pigcms:$userInfo.reservetime|date="Y-m-d H:i:s",###}
@@ -108,12 +115,14 @@
                     <td colspan="2">{pigcms:$userInfo.nums}
                     </td>
                 </tr>
+				-->
                 <tr>
-                    <td style="width:80px;vertical-align:top;line-height:25px;">备注说明：</td>
+                    <td style="width:80px;vertical-align:top;line-height:25px;">咨询说明：</td>
                     <td colspan="2">{pigcms:$userInfo.des}
                     </td>
                 </tr>
 				</if>
+				<!--
 				<tr>
 				
                     
@@ -122,9 +131,10 @@
                                 
                             
                 </tr>
+				-->
             </tbody></table>
             <footer>
-                <input type="button" value="确认预定" class="btn_2" id="submit_form">
+                <input type="button" value="确认" class="btn_2" id="submit_form">
             </footer>
         </form>
     </article>

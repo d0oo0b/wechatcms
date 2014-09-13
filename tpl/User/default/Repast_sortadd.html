@@ -12,10 +12,10 @@ function chg_catid(catid) {
 </script>
 <div class="content"> 
 	<div class="cLineB"> 
-		<h4>菜品分类设置</h4> 
-		<a href="{pigcms::U('Repast/index',array('token' => $token,'cid'=>$cid))}" class="right  btnGreen" style="margin-top:-27px">返回</a> 
+		<h4>分类设置</h4> 
+		<a href="{pigcms::U('Repast/sort',array('token' => $token,'cid'=>$cid))}" class="right  btnGreen" style="margin-top:-27px">返回</a> 
 	</div> 
-	<div style="background:#fefbe4;border:1px solid #f3ecb9;color:#993300;padding:10px;margin-top:5px;">此处只显示总店信息，连锁店订单及菜品请进入相应平台进行管理，连锁店登录账号密码及登录地址请在LBS里设置查看</div>
+	<div style="background:#fefbe4;border:1px solid #f3ecb9;color:#993300;padding:10px;margin-top:5px;">此处只显示总店信息，连锁店信息请进入相应平台进行管理，连锁店登录账号密码及登录地址请在LBS里设置查看</div>
 <form method="post" action="" id="formID">
 <input type="hidden" name="id" value="{pigcms:$tableData.id}" />
 <input type="hidden" name="cid" id="cid" value="{pigcms:$cid}" />
@@ -23,7 +23,7 @@ function chg_catid(catid) {
      <table class="userinfoArea" style=" margin:0;" border="0" cellspacing="0" cellpadding="0" width="100%"> 
       <tbody> 
 	  <tr> 
-        <th><span class="red">*</span>店铺选择：</th> 
+        <th><span class="red">*</span>药房选择：</th> 
         <td>  <select name="catid" style="width:400px; height:26px" onchange="chg_catid(this.value)" >
          <volist name="Companys" id="t">
         <option  value="{pigcms:$t.id}" <if condition="$tableData['catid'] eq $t['id']">selected</if>>{pigcms:$t.name}</option>

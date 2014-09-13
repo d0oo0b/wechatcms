@@ -18,19 +18,23 @@ function chg_catid(catid) {
 </div>
 <div class="clr"></div>
 </div>
-<div style="background:#fefbe4;border:1px solid #f3ecb9;color:#993300;padding:10px;margin-top:5px;">此处只显示总店信息，连锁店订单及菜品请进入相应平台进行管理，连锁店登录账号密码及登录地址请在LBS里设置查看</div>
+<div style="background:#fefbe4;border:1px solid #f3ecb9;color:#993300;padding:10px;margin-top:5px;">此处只显示总店信息，连锁店信息请进入相应平台进行管理，连锁店登录账号密码及登录地址请在LBS里设置查看</div>
 <!--tab start-->
 <div class="tab">
 <ul>
-<li class="current tabli" id="tab0"><a href="{pigcms::U('Repast/company_index', array('token' => $token,'cid' => $cid))}">餐厅管理</a></li>
+<li class="current tabli" id="tab0"><a href="{pigcms::U('Repast/company_index', array('token' => $token,'cid' => $cid))}">药房管理</a></li>
+<!--
 <li class="tabli" id="tab1"><a href="{pigcms::U('Repast/index', array('token' => $token,'cid' => $cid))}">餐台管理</a></li>
-<li class="tabli" id="tab2"><a href="{pigcms::U('Repast/detail', array('token' => $token,'cid' => $cid))}">餐台预定情况</a></li>
+<li class="tabli" id="tab2"><a href="{pigcms::U('Repast/detail', array('token' => $token,'cid' => $cid))}">餐厅预定情况</a></li>
+-->
 <li class="tabli" id="tab2"><a href="{pigcms::U('Repast/sort', array('token' => $token,'cid' => $cid))}">分类管理</a></li>
-<li class="tabli" id="tab3"><a href="{pigcms::U('Repast/dish', array('token' => $token,'cid' => $cid))}">菜品管理</a></li>
-<li class="tabli" id="tab4"><a href="{pigcms::U('Repast/orders', array('token' => $token,'cid' => $cid))}">订单管理</a></li>
+<li class="tabli" id="tab3"><a href="{pigcms::U('Repast/dish', array('token' => $token,'cid' => $cid))}">药师管理</a></li>
+<li class="tabli" id="tab4"><a href="{pigcms::U('Repast/orders', array('token' => $token,'cid' => $cid))}">咨询管理</a></li>
+<!--
 <if condition="$ischild neq 1" >
-<li class="tabli" id="tab5"><a href="{pigcms::U('Reply_info/set', array('token'=>$token,'infotype'=>'Dining'))}">订餐回复配置</a></li>
+<li class="tabli" id="tab5"><a href="{pigcms::U('Reply_info/set', array('token'=>$token,'infotype'=>'Dining'))}">咨询回复配置</a></li>
 </if>
+-->
 </ul>
 </div>
 <!--tab end-->
@@ -44,7 +48,7 @@ function chg_catid(catid) {
 
 
       <tr> 
-        <th><span class="red">*</span>店铺选择：</th> 
+        <th><span class="red">*</span>药房选择：</th> 
         <td>  <select name="catid" style="width:400px; height:26px" onchange="chg_catid(this.value)" >
          <volist name="Companys" id="t">
         <option  value="{pigcms:$t.id}" <if condition="$company['catid'] eq $t['id']">selected</if>>{pigcms:$t.name}</option>
@@ -52,7 +56,7 @@ function chg_catid(catid) {
         </select> </td> 
        </tr>
 	   <tr> 
-        <th><span class="red">*</span>是否支持外卖：</th> 
+        <th><span class="red">*</span>是否支持药速达：</th> 
         <td>
         <select name="istakeaway">
         <option value="0"  <if condition="0 eq $company['istakeaway']">selected</if> >不支持</option>
@@ -60,6 +64,7 @@ function chg_catid(catid) {
         </select>
         </td> 
        </tr>
+		<!--
        <tr> 
         <th>外卖费：</th>
         <td><input type="text" name="price" value="{pigcms:$company.price}" class="px" id="pic" style="width:80px;" /> 元</td> 
@@ -77,7 +82,7 @@ function chg_catid(catid) {
         <th><span class="red"></span>店铺类型：</th> 
         <td><input type="text" id="category" name="category" value="{pigcms:$company.category}" placeholder="如：小吃、快餐 " class="px require" style="width:400px;" /></td> 
        </tr>
-
+		-->
 	   <!-- 
        <tr> 
         <th><span class="red"></span>店铺公告：</th> 

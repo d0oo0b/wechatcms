@@ -9,24 +9,28 @@
 <h4 class="left">餐厅管理</h4>
 <div class="clr"></div>
 </div>
-<div style="background:#fefbe4;border:1px solid #f3ecb9;color:#993300;padding:10px;margin-top:5px;">此处只显示总店信息，连锁店订单及菜品请进入相应平台进行管理，连锁店登录账号密码及登录地址请在LBS里设置查看</div>
+<div style="background:#fefbe4;border:1px solid #f3ecb9;color:#993300;padding:10px;margin-top:5px;">此处只显示总店信息，连锁店信息请进入相应平台进行管理，连锁店登录账号密码及登录地址请在LBS里设置查看</div>
 <!--tab start-->
 <div class="tab">
 <ul>
-<li class="current tabli" id="tab0"><a href="{pigcms::U('Repast/company_index', array('token' => $token,'cid' => $cid))}">餐厅管理</a></li>
+<li class="current tabli" id="tab0"><a href="{pigcms::U('Repast/company_index', array('token' => $token,'cid' => $cid))}">药房管理</a></li>
+<!--
 <li class="tabli" id="tab1"><a href="{pigcms::U('Repast/index', array('token' => $token,'cid' => $cid))}">餐台管理</a></li>
 <li class="tabli" id="tab2"><a href="{pigcms::U('Repast/detail', array('token' => $token,'cid' => $cid))}">餐厅预定情况</a></li>
+-->
 <li class="tabli" id="tab2"><a href="{pigcms::U('Repast/sort', array('token' => $token,'cid' => $cid))}">分类管理</a></li>
-<li class="tabli" id="tab3"><a href="{pigcms::U('Repast/dish', array('token' => $token,'cid' => $cid))}">菜品管理</a></li>
-<li class="tabli" id="tab4"><a href="{pigcms::U('Repast/orders', array('token' => $token,'cid' => $cid))}">订单管理</a></li>
+<li class="tabli" id="tab3"><a href="{pigcms::U('Repast/dish', array('token' => $token,'cid' => $cid))}">药师管理</a></li>
+<li class="tabli" id="tab4"><a href="{pigcms::U('Repast/orders', array('token' => $token,'cid' => $cid))}">咨询管理</a></li>
+<!--
 <if condition="$ischild neq 1" >
-<li class="tabli" id="tab5"><a href="{pigcms::U('Reply_info/set', array('token'=>$token,'infotype'=>'Dining'))}">订餐回复配置</a></li>
+<li class="tabli" id="tab5"><a href="{pigcms::U('Reply_info/set', array('token'=>$token,'infotype'=>'Dining'))}">咨询回复配置</a></li>
 </if>
+-->
 </ul>
 </div>
 <!--tab end-->
 <div class="cLine">
-<div class="pageNavigator left"> <a href="{pigcms::U('Repast/company',array('token' => $token,'cid'=>$cid))}" title="添加" class="btnGrayS vm bigbtn"><img src="{pigcms::RES}/images/product/add.png" width="16" class="vm">添加餐厅</a></div>
+<div class="pageNavigator left"> <a href="{pigcms::U('Repast/company',array('token' => $token,'cid'=>$cid))}" title="添加" class="btnGrayS vm bigbtn"><img src="{pigcms::RES}/images/product/add.png" width="16" class="vm">添加药房</a></div>
 <div class="clr"></div>
 </div>
 <div class="msgWrap">
@@ -34,10 +38,12 @@
 <table class="ListProduct" border="0" cellspacing="0" cellpadding="0" width="100%">
 <thead>
 	<tr>
-		<th width="">店铺名称</th>
+		<th width="">药房名称</th>
+		<!--
 		<th width="">支持外卖</th>
 		<th width="">外卖费</th>
 		<th width="">店铺类型</th>
+		-->
 		<th width="">短信通知</th>
         <th width="">短信验证码</th>
 		<th width="">邮件通知</th>
@@ -50,6 +56,7 @@
 <volist name="list" id="tablelist"> 
 	<tr>
 		<td><?php echo $Companys_arr[$tablelist['catid']];?></td>
+		<!--
 		<td>
         <?php if ($tablelist['istakeaway'] == 0) 
         		echo '不支持';
@@ -59,6 +66,7 @@
         </td>
 		<td>{pigcms:$tablelist.price}</td>
 		<td>{pigcms:$tablelist.category}</td>
+		-->
 		<td>
         <?php if ($tablelist['phone_status'] == 0) 
         		echo '关闭';
